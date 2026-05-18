@@ -1478,7 +1478,7 @@ img {
   .section-title,
   .systems-fixed-box h2,
   .about-cta-card h2 {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 1.15;
   }
 
@@ -1487,7 +1487,7 @@ img {
   .about-body-copy,
   .systems-intro,
   .about-cta-card p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .identity-image-wrap,
