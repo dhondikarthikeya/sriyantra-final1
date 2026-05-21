@@ -149,7 +149,7 @@
   justify-content: center;
   min-height: 52px;
   padding: 0.9rem 1.45rem;
-  border-radius: 0.75rem;
+  /* border-radius: 0.75rem; */
   text-decoration: none;
   font-size: 0.92rem;
   font-weight: 600;
@@ -849,7 +849,7 @@
 
 .product-cta-eyebrow {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -932,8 +932,8 @@
 
   .product-section,
   .product-cta-wrap {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 3.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .product-hero-layout {
@@ -950,8 +950,8 @@
   .product-hero-text,
   .product-section-text,
   .product-cta-text {
-    font-size: 0.95rem;
-    line-height: 1.65rem;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
   }
 
   .product-section-title,
@@ -1088,7 +1088,7 @@
 
   .product-section-title,
   .product-cta-title {
-    font-size: 1.55rem;
+    font-size: 1.35rem;
   }
 
   .product-card,

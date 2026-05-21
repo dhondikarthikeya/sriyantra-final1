@@ -328,7 +328,7 @@ export default function Nav() {
           </nav>
 
           <div className="sytCtaDesktop">
-            <Link href="/contact" className="sytCtaBtn">
+            <Link href="/marketing/contact" className="sytCtaBtn">
               Start Discussion
             </Link>
           </div>
@@ -473,7 +473,7 @@ export default function Nav() {
               );
             })}
 
-            <Link href="/contact" onClick={closeAll} className="sytMobileCta">
+            <Link href="/marketing/contact" onClick={closeAll} className="sytMobileCta">
               Start Discussion
             </Link>
           </div>

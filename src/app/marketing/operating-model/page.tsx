@@ -29,19 +29,7 @@ type Phase = {
   outcome: string;
 };
 
-type Differentiator = {
-  title: string;
-  description: string;
-  icon: ReactNode;
-};
-
-type Principle = {
-  title: string;
-  description: string;
-  icon: ReactNode;
-};
-
-type PipelineStep = {
+type CardItem = {
   title: string;
   description: string;
   icon: ReactNode;
@@ -55,7 +43,7 @@ const lifecycle = [
   "Optimization",
 ];
 
-const pipelineSteps: PipelineStep[] = [
+const pipelineSteps: CardItem[] = [
   {
     title: "Strategy",
     description: "Clarify priorities, risk, constraints, and opportunity.",
@@ -113,8 +101,7 @@ const phases: Phase[] = [
       "Security and compliance framework",
       "Modular and scalable system planning",
     ],
-    outcome:
-      "A structured architecture that enables long-term scalability.",
+    outcome: "A structured architecture that enables long-term scalability.",
   },
   {
     number: "03",
@@ -159,12 +146,11 @@ const phases: Phase[] = [
       "Cost optimization strategies",
       "Predictive scaling and system evolution",
     ],
-    outcome:
-      "Continuously improving systems with long-term resilience.",
+    outcome: "Continuously improving systems with long-term resilience.",
   },
 ];
 
-const principles: Principle[] = [
+const principles: CardItem[] = [
   {
     title: "Systems Over Silos",
     description:
@@ -180,7 +166,7 @@ const principles: Principle[] = [
   {
     title: "Intelligence Embedded by Design",
     description:
-      "AI is built into workflows, decisions, and system behavior — not added as a disconnected feature later.",
+      "AI is built into workflows, decisions, and system behavior - not added as a disconnected feature later.",
     icon: <FaBrain color="#8B5CF6" />,
   },
   {
@@ -191,7 +177,7 @@ const principles: Principle[] = [
   },
 ];
 
-const differentiators: Differentiator[] = [
+const differentiators: CardItem[] = [
   {
     title: "Architecture-First Delivery",
     description:
@@ -219,7 +205,7 @@ const differentiators: Differentiator[] = [
   {
     title: "Lifecycle Ownership",
     description:
-      "We think beyond launch — into monitoring, hardening, evolution, and long-term value creation.",
+      "We think beyond launch - into monitoring, hardening, evolution, and long-term value creation.",
     icon: <FaSyncAlt color="#10B981" />,
   },
   {
@@ -257,7 +243,7 @@ export default function OperatingModelPage() {
 
       if (!shouldFix) {
         setOverviewMode("normal");
-      } else if (shouldFix && !shouldStop) {
+      } else if (!shouldStop) {
         setOverviewMode("fixed");
       } else {
         setOverviewMode("bottom");
@@ -275,50 +261,41 @@ export default function OperatingModelPage() {
   }, []);
 
   return (
-    <main className="operating-model-page">
+    <main className="wom-page">
       <section
-        className="hero-section"
+        className="wom-hero-section"
         style={{
           backgroundImage: "url('/hero/strategy.png')",
         }}
       >
-        <div className="hero-overlay" />
-        <div className="container hero-grid">
-          <div className="hero-content">
-            <p className="hero-eyebrow">Sri Yantra Tech — Operating Model</p>
+        <div className="wom-hero-overlay" />
+        <div className="wom-container wom-hero-grid">
+          <div className="wom-hero-content">
+            {/* <p className="wom-hero-eyebrow">Sri Yantra Tech - Operating Model</p> */}
             <h1>Structured Execution for Scalable Systems</h1>
-            <p className="hero-subheadline">
+            <p className="wom-hero-subheadline">
               We follow a defined operating model that transforms strategy into
               engineered, intelligent, and scalable systems across digital, AI,
               cloud, data, and industrial domains.
             </p>
-{/* 
-            <div className="hero-actions">
-              <button className="btn btn-primary">
-                Start a Strategic Discussion
-              </button>
-              <button className="btn btn-secondary">
-                Explore Capabilities
-              </button>
-            </div> */}
           </div>
         </div>
       </section>
 
-      <section className="section section-intro">
-        <div className="container two-column intro-layout">
-          <div className="left-content">
-            <p className="section-label">Framework Overview</p>
+      <section className="wom-section wom-section-intro">
+        <div className="wom-container wom-two-column wom-intro-layout">
+          <div className="wom-left-content">
+            <p className="wom-section-label">Framework Overview</p>
             <h2>End-to-End System Execution Framework</h2>
 
             <img
               src="/industries/infra.png"
               alt="End-to-End System Execution Framework"
-              className="section-feature-image"
+              className="wom-section-feature-image"
             />
           </div>
 
-          <div className="text-stack intro-text">
+          <div className="wom-text-stack wom-intro-text">
             <p>
               Every engagement follows a structured lifecycle built to move from
               clarity to execution without disconnects between planning,
@@ -338,27 +315,27 @@ export default function OperatingModelPage() {
         </div>
       </section>
 
-      <section className="section pipeline-section">
-        <div className="container pipeline-container">
-          <div className="section-heading centered-heading pipeline-heading">
-            <p className="section-label">Visual System Pipeline</p>
+      <section className="wom-section wom-pipeline-section">
+        <div className="wom-container wom-pipeline-container">
+          <div className="wom-section-heading wom-centered-heading wom-pipeline-heading">
+            <p className="wom-section-label">Visual System Pipeline</p>
             <h2>How the Operating Model Moves Work Forward</h2>
           </div>
 
-          <div className="pipeline-shell">
-            <div className="pipeline-connector-line" />
+          <div className="wom-pipeline-shell">
+            <div className="wom-pipeline-connector-line" />
 
-            <div className="pipeline-grid">
+            <div className="wom-pipeline-grid">
               {pipelineSteps.map((item, index) => (
-                <article key={item.title} className="pipeline-card">
-                  <div className="pipeline-card-inner">
-                    <div className="pipeline-icon-wrap">{item.icon}</div>
+                <article key={item.title} className="wom-pipeline-card">
+                  <div className="wom-pipeline-card-inner">
+                    <div className="wom-pipeline-icon-wrap">{item.icon}</div>
                     <h3>{item.title}</h3>
                     <p>{item.description}</p>
                   </div>
 
                   {index < pipelineSteps.length - 1 && (
-                    <div className="pipeline-arrow-bridge" />
+                    <div className="wom-pipeline-arrow-bridge" />
                   )}
                 </article>
               ))}
@@ -367,17 +344,20 @@ export default function OperatingModelPage() {
         </div>
       </section>
 
-      <section className="section section-alt principles-section">
-        <div className="container">
-          <div className="section-heading">
-            <p className="section-label">Operating Principles</p>
+      <section className="wom-section wom-section-alt wom-principles-section">
+        <div className="wom-container">
+          <div className="wom-section-heading">
+            <p className="wom-section-label">Operating Principles</p>
             <h2>Systems Over Silos</h2>
           </div>
 
-          <div className="card-grid two-col">
+          <div className="wom-card-grid wom-two-col">
             {principles.map((item) => (
-              <article key={item.title} className="info-card principle-card">
-                <div className="principle-icon">{item.icon}</div>
+              <article
+                key={item.title}
+                className="wom-info-card wom-principle-card"
+              >
+                <div className="wom-principle-icon">{item.icon}</div>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
               </article>
@@ -386,23 +366,23 @@ export default function OperatingModelPage() {
         </div>
       </section>
 
-      <section className="section phases-section">
-        <div className="container">
-          <div className="phases-shell" ref={overviewSectionRef}>
-            <div className="phases-left-rail">
+      <section className="wom-section wom-phases-section">
+        <div className="wom-container">
+          <div className="wom-phases-shell" ref={overviewSectionRef}>
+            <div className="wom-phases-left-rail">
               <div
                 ref={overviewBoxRef}
-                className={`phases-fixed-box phases-${overviewMode}`}
+                className={`wom-phases-fixed-box wom-phases-${overviewMode}`}
               >
-                <p className="section-label">Execution Model</p>
+                <p className="wom-section-label">Execution Model</p>
                 <h2>Five connected phases. One scalable system path.</h2>
-                <p className="phases-intro">
+                <p className="wom-phases-intro">
                   Each phase builds on the one before it, ensuring strategy,
                   architecture, engineering, intelligence, and optimization
                   operate as one continuous system.
                 </p>
 
-                <div className="mini-flow">
+                <div className="wom-mini-flow">
                   {lifecycle.map((item) => (
                     <span key={item}>{item}</span>
                   ))}
@@ -411,35 +391,35 @@ export default function OperatingModelPage() {
                 <img
                   src="/industries/energy.png"
                   alt="Execution model"
-                  className="execution-model-image"
+                  className="wom-execution-model-image"
                 />
               </div>
             </div>
 
-            <div className="phases-right-stack">
+            <div className="wom-phases-right-stack">
               {phases.map((item) => (
-                <article key={item.title} className="phase-card">
-                  <div className="phase-top">
-                    <div className="phase-meta">
-                      <span className="phase-number">{item.number}</span>
-                      <div className="phase-icon">{item.icon}</div>
+                <article key={item.title} className="wom-phase-card">
+                  <div className="wom-phase-top">
+                    <div className="wom-phase-meta">
+                      <span className="wom-phase-number">{item.number}</span>
+                      <div className="wom-phase-icon">{item.icon}</div>
                     </div>
                     <h3>{item.title}</h3>
                   </div>
 
-                  <p className="phase-description">{item.description}</p>
+                  <p className="wom-phase-description">{item.description}</p>
 
-                  <div className="phase-points">
+                  <div className="wom-phase-points">
                     {item.points.map((point) => (
-                      <div key={point} className="phase-point">
-                        <span className="phase-point-dot" />
+                      <div key={point} className="wom-phase-point">
+                        <span className="wom-phase-point-dot" />
                         <span>{point}</span>
                       </div>
                     ))}
                   </div>
 
-                  <div className="phase-outcome">
-                    <span className="outcome-label">Outcome</span>
+                  <div className="wom-phase-outcome">
+                    <span className="wom-outcome-label">Outcome</span>
                     <p>{item.outcome}</p>
                   </div>
                 </article>
@@ -449,20 +429,20 @@ export default function OperatingModelPage() {
         </div>
       </section>
 
-      <section className="section differentiation-section">
-        <div className="container">
-          <div className="section-heading">
-            <p className="section-label">Why This Model Works</p>
+      <section className="wom-section wom-differentiation-section">
+        <div className="wom-container">
+          <div className="wom-section-heading">
+            <p className="wom-section-label">Why This Model Works</p>
             <h2>Operating Model Advantages</h2>
           </div>
 
-          <div className="card-grid three-col">
+          <div className="wom-card-grid wom-three-col">
             {differentiators.map((item) => (
               <article
                 key={item.title}
-                className="info-card differentiator-card"
+                className="wom-info-card wom-differentiator-card"
               >
-                <div className="differentiator-icon">{item.icon}</div>
+                <div className="wom-differentiator-icon">{item.icon}</div>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
               </article>
@@ -471,33 +451,33 @@ export default function OperatingModelPage() {
         </div>
       </section>
 
-      <section className="section case-study-section">
-        <div className="container two-column case-layout">
+      <section className="wom-section wom-case-study-section">
+        <div className="wom-container wom-two-column wom-case-layout">
           <div>
-            <p className="section-label section-label-light">
+            <p className="wom-section-label wom-section-label-light">
               Execution Outcome
             </p>
             <h2>Built for Long-Term Scalability, Not One-Time Delivery</h2>
           </div>
 
-          <div className="case-study-card">
-            <p className="case-study-tag">Structured System Delivery</p>
-            <p className="case-study-description">
+          <div className="wom-case-study-card">
+            <p className="wom-case-study-tag">Structured System Delivery</p>
+            <p className="wom-case-study-description">
               By aligning objectives, architecture, engineering discipline,
               intelligence integration, and continuous optimization, teams move
               from fragmented implementation to coherent system execution.
             </p>
 
-            <div className="stats-grid">
-              <div className="stat-box">
+            <div className="wom-stats-grid">
+              <div className="wom-stat-box">
                 <h3>5</h3>
                 <p>Connected operating phases</p>
               </div>
-              <div className="stat-box">
+              <div className="wom-stat-box">
                 <h3>1</h3>
                 <p>Integrated execution model</p>
               </div>
-              <div className="stat-box">
+              <div className="wom-stat-box">
                 <h3>∞</h3>
                 <p>Continuous improvement mindset</p>
               </div>
@@ -506,11 +486,13 @@ export default function OperatingModelPage() {
         </div>
       </section>
 
-      <section className="cta-wrapper">
-        <div className="container">
-          <div className="cta-box">
-            <div className="cta-content">
-              <p className="section-label section-label-light">Final CTA</p>
+      <section className="wom-cta-wrapper">
+        <div className="wom-container">
+          <div className="wom-cta-box">
+            <div className="wom-cta-content">
+              <p className="wom-section-label wom-section-label-light">
+                Final CTA
+              </p>
               <h2>Build Systems That Scale with Structure</h2>
               <p>
                 Move beyond fragmented execution. Engineer systems through a
@@ -519,8 +501,8 @@ export default function OperatingModelPage() {
               </p>
             </div>
 
-            <div className="cta-action">
-              <button className="btn btn-white">
+            <div className="wom-cta-action">
+              <button className="wom-btn wom-btn-white">
                 Start a Strategic Discussion
               </button>
             </div>
