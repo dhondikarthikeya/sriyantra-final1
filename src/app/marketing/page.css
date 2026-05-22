@@ -907,7 +907,7 @@ body {
   font-size: clamp(2.1rem, 3vw, 3rem);
   line-height: 1.05;
   letter-spacing: -0.04em;
-  font-weight: 600;
+  font-weight: 450;
   color: #000000;
 }
 
@@ -1058,7 +1058,7 @@ body {
   padding: 18px 32px;
   border-radius: 1px;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 450;
   cursor: pointer;
   transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
 }
@@ -1252,8 +1252,9 @@ body {
     font-size: 2.1rem;
   }
 
-  .hp7-b4 p {
-    font-size: 0.94rem;
+  .hp7-b4 p,.hp7-c2 p,.hp7-i3 p,.why-description,.hp7-i13 p{
+    font-size: 0.74rem;
+    line-height: 1.4;
   }
 
   .hp7-b5 {
@@ -1316,10 +1317,10 @@ body {
     font-size: 1.55rem;
   }
 
-  .hp7-i13 p {
+  /* .hp7-i13 p {
     font-size: 0.92rem;
     line-height: 1.65;
-  }
+  } */
 
   .why-section {
     padding: 80px 20px 0;
@@ -1352,7 +1353,7 @@ body {
   }
 
   .principles-title {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
   }
 
   .principles-grid {
