@@ -40,7 +40,7 @@ type WorkApproachCard = {
 
 type IndustryCard = {
   title: string;
-  text: string;
+  // text: string;
   image: string;
 };
 
