@@ -40,7 +40,6 @@ type WorkApproachCard = {
 
 type IndustryCard = {
   title: string;
-  // text: string;
   image: string;
 };
 
@@ -180,12 +179,10 @@ const differentiators = [
 const industries: IndustryCard[] = [
   {
     title: "Technology & SaaS",
-    
     image: "/industries/saas.png",
   },
   {
     title: "Manufacturing & Industrial",
-   
     image: "/industries/manufacturing.png",
   },
   {
@@ -202,17 +199,14 @@ const industries: IndustryCard[] = [
   },
   {
     title: "Banking & Financial Services",
-   
     image: "/industries/banking.png",
   },
   {
     title: "Retail & E-Commerce",
-  
     image: "/industries/retail.png",
   },
   {
     title: "Media & Entertainment",
-    
     image: "/hero/11.png",
   },
 ];
@@ -313,8 +307,6 @@ export default function AboutPage() {
         <div className="about-hero-overlay" />
         <div className="container">
           <div className="about-hero-inner">
-            {/* <span className="eyebrow">About Sri Yantra Tech</span> */}
-
             <h1 className="about-title">
               Engineering Intelligent Systems for a Scalable Future
             </h1>
@@ -325,30 +317,6 @@ export default function AboutPage() {
               industrial systems designed for clarity, resilience, and long-term
               scale.
             </p>
-
-            {/* <div className="about-hero-actions">
-              <a href="/marketing/contact" className="btn btn-primary">
-                Start a Strategic Discussion
-              </a>
-              <a href="/marketing/services" className="btn btn-secondary">
-                Explore Capabilities
-              </a>
-            </div> */}
-{/* 
-            <div className="hero-metrics">
-              <div className="hero-metric-card">
-                <strong>Architecture-First</strong>
-                <span>Structure before scale, clarity before complexity</span>
-              </div>
-              <div className="hero-metric-card">
-                <strong>AI-Embedded</strong>
-                <span>Intelligence integrated into real workflows and systems</span>
-              </div>
-              <div className="hero-metric-card">
-                <strong>Scalable by Design</strong>
-                <span>Built for resilience, governance, and future growth</span>
-              </div>
-            </div> */}
           </div>
         </div>
       </section>
@@ -370,10 +338,10 @@ export default function AboutPage() {
                 infrastructure, data ecosystems, and industrial operations.
               </p>
               <p className="about-body-copy">
-                We are not built around isolated implementations. We are built around
-                systems thinking. That means shaping architecture, workflows, data,
-                intelligence, and operations into one coherent model that can scale
-                with the business.
+                We are not built around isolated implementations. We are built
+                around systems thinking. That means shaping architecture,
+                workflows, data, intelligence, and operations into one coherent
+                model that can scale with the business.
               </p>
             </div>
           </div>
@@ -411,8 +379,8 @@ export default function AboutPage() {
 
             <p className="section-copy">
               AI remains trapped in pilots, data is fragmented across platforms,
-              infrastructure struggles under growth, and operational workflows are
-              often disconnected from the systems meant to support them.
+              infrastructure struggles under growth, and operational workflows
+              are often disconnected from the systems meant to support them.
             </p>
           </div>
 
@@ -433,7 +401,8 @@ export default function AboutPage() {
               <p>
                 Sri Yantra Tech exists to help organizations move toward
                 integrated, intelligence-ready, architecture-led operating
-                environments that support both present execution and future growth.
+                environments that support both present execution and future
+                growth.
               </p>
             </article>
           </div>
@@ -488,20 +457,23 @@ export default function AboutPage() {
             </div>
 
             <p className="section-copy">
-              We approach architecture, AI, data, cloud, and industrial contexts as
-              connected layers of one larger operating model.
+              We approach architecture, AI, data, cloud, and industrial contexts
+              as connected layers of one larger operating model.
             </p>
           </div>
 
           <div className="mindset-grid">
             {mindsetCards.map((item) => {
               const Icon = item.icon;
+
               return (
                 <article className="mindset-card" key={item.title}>
                   <div className="mindset-card-icon" aria-hidden="true">
                     <Icon />
                   </div>
-                  <span className="mindset-card-kicker">Engineering Principle</span>
+                  <span className="mindset-card-kicker">
+                    Engineering Principle
+                  </span>
                   <h3>{item.title}</h3>
                   <p>{item.text}</p>
                 </article>
@@ -522,14 +494,16 @@ export default function AboutPage() {
             </div>
 
             <p className="section-copy">
-              We combine business-aware engineering with long-term systems thinking
-              so technology decisions support real operational outcomes.
+              We combine business-aware engineering with long-term systems
+              thinking so technology decisions support real operational
+              outcomes.
             </p>
           </div>
 
           <div className="work-grid">
             {workApproach.map((item) => {
               const Icon = item.icon;
+
               return (
                 <article className="work-card" key={item.title}>
                   <div className="work-card-icon" aria-hidden="true">
@@ -557,7 +531,8 @@ export default function AboutPage() {
                 <p className="systems-intro">
                   Sri Yantra Tech approaches transformation as the design of an
                   integrated operating environment where experience, workflows,
-                  intelligence, data, cloud, and operations reinforce one another.
+                  intelligence, data, cloud, and operations reinforce one
+                  another.
                 </p>
 
                 <a href="/marketing/contact" className="btn btn-dark">
@@ -570,6 +545,7 @@ export default function AboutPage() {
               <div className="storyboard-track">
                 {systemLayers.map((layer, index) => {
                   const Icon = layer.icon;
+
                   return (
                     <article className="storyboard-card" key={layer.id}>
                       <div className="storyboard-line" aria-hidden="true" />
@@ -579,7 +555,9 @@ export default function AboutPage() {
                         <div className="storyboard-icon" aria-hidden="true">
                           <Icon />
                         </div>
-                        <span className="storyboard-kicker">Operating Layer</span>
+                        <span className="storyboard-kicker">
+                          Operating Layer
+                        </span>
                         <h3>{layer.title}</h3>
                         <p>{layer.text}</p>
                       </div>
@@ -606,7 +584,8 @@ export default function AboutPage() {
 
             <p className="section-copy">
               Our differentiation comes from connecting strategy, architecture,
-              intelligence, and operational engineering into one disciplined model.
+              intelligence, and operational engineering into one disciplined
+              model.
             </p>
           </div>
 
@@ -623,85 +602,81 @@ export default function AboutPage() {
       </section>
 
       <section className="industries1-section">
-  <div className="container">
-    <div className="section-head">
-      <div>
-        <p className="section-label">Industry Context</p>
-        <h2 className="section-title">
-          Built to support complex digital and operational environments
-        </h2>
-      </div>
-
-      <p className="section-copy">
-        Our architecture-led approach is relevant across software-intensive,
-        asset-intensive, and operationally complex sectors.
-      </p>
-    </div>
-
-    <div className="industries1-shell">
-      <div className="industries1-row" ref={industries1RowRef}>
-        {industries1Cards.map((item) => (
-          <article className="industries1-card" key={item.title}>
-            <div className="industries1-media">
-              <img
-                src={item.image}
-                alt={item.title}
-                className="industries1-image"
-              />
-              <div className="industries1-image-overlay" />
-
-              <div className="industries1-body">
-                {/* <span className="industries1-kicker">Industry</span> */}
-                <h3>{item.title}</h3>
-                <p>{item.text}</p>
-              </div>
+        <div className="container">
+          <div className="section-head">
+            <div>
+              <p className="section-label">Industry Context</p>
+              <h2 className="section-title">
+                Built to support complex digital and operational environments
+              </h2>
             </div>
-          </article>
-        ))}
-      </div>
 
-      <div className="industries1-actions">
-        <button
-          type="button"
-          className="industries1-nav-button"
-          onClick={() => industries1Scroll("left")}
-          aria-label="Scroll industries left"
-        >
-          ←
-        </button>
-        <button
-          type="button"
-          className="industries1-nav-button"
-          onClick={() => industries1Scroll("right")}
-          aria-label="Scroll industries right"
-        >
-          →
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
+            <p className="section-copy">
+              Our architecture-led approach is relevant across
+              software-intensive, asset-intensive, and operationally complex
+              sectors.
+            </p>
+          </div>
+
+          <div className="industries1-shell">
+            <div className="industries1-row" ref={industries1RowRef}>
+              {industries1Cards.map((item) => (
+                <article className="industries1-card" key={item.title}>
+                  <div className="industries1-media">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="industries1-image"
+                    />
+                    <div className="industries1-image-overlay" />
+
+                    <div className="industries1-body">
+                      <h3>{item.title}</h3>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
+
+            <div className="industries1-actions">
+              <button
+                type="button"
+                className="industries1-nav-button"
+                onClick={() => industries1Scroll("left")}
+                aria-label="Scroll industries left"
+              >
+                ←
+              </button>
+              <button
+                type="button"
+                className="industries1-nav-button"
+                onClick={() => industries1Scroll("right")}
+                aria-label="Scroll industries right"
+              >
+                →
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="about-cta-section">
         <div className="container">
           <div className="about-cta-card">
-            <p className="section-label">Build Systems That Are Structured to Scale</p>
-            <h2>
-             Bring the Enterprise Intelligence Fabric
-            </h2>
+            <p className="section-label">
+              Build Systems That Are Structured to Scale
+            </p>
+            <h2>Bring the Enterprise Intelligence Fabric</h2>
             <p>
-              Sri Yantra Tech helps organizations engineer operating environments
-              where architecture, execution, and intelligence are aligned from the
-              ground up.
+              Sri Yantra Tech helps organizations engineer operating
+              environments where architecture, execution, and intelligence are
+              aligned from the ground up.
             </p>
 
             <div className="about-cta-actions">
               <a href="/marketing/contact" className="btn btn-primary">
                 Start the Conversation
               </a>
-              {/* <a href="/marketing/services" className="btn btn-secondary">
-                Explore Services
-              </a> */}
             </div>
           </div>
         </div>
