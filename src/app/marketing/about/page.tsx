@@ -305,7 +305,7 @@ export default function AboutPage() {
     <main className="about-page">
       <section className="about-hero">
         <div className="about-hero-overlay" />
-        <div className="container">
+        <div className="container1">
           <div className="about-hero-inner">
             <h1 className="about-title">
               Engineering Intelligent Systems for a Scalable Future

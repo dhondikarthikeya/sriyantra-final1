@@ -29,6 +29,13 @@ img {
   padding-left: 24px;
   padding-right: 24px;
 }
+.container1 {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
 
 .who-we-are-section,
 .why-we-exist-section,
@@ -1144,6 +1151,9 @@ img {
   .container {
     max-width: 1440px;
   }
+  .container1 {
+    max-width: 1440px;
+  }
 
   .industries1-card {
     flex: 0 0 380px;
@@ -1279,9 +1289,13 @@ img {
   .container {
     padding-left: 18px;
     padding-right: 18px;
+    padding-top: 20px;
+  }
+  .container1 {
+    padding-left: 18px;
+    padding-right: 18px;
     padding-top: 80px;
   }
-
   .about-hero {
     min-height: auto;
     padding: 0;
@@ -1455,6 +1469,10 @@ img {
 /* Small mobile */
 @media (max-width: 480px) {
   .container {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .container1 {
     padding-left: 14px;
     padding-right: 14px;
   }
