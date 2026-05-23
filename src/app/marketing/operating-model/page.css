@@ -107,7 +107,11 @@ img {
   line-height: 1.6;
   font-size: 15px;
 }
-
+.wom-cta-content p{
+  color: #ffffff;
+  line-height: 1.6;
+  font-size: 15px;
+}
 /* Hero */
 .wom-hero-section {
   position: relative;
@@ -184,7 +188,7 @@ img {
 /* Buttons */
 .wom-btn {
   border: none;
-  border-radius: 16px;
+  border-radius: 1px;
   padding: 14px 22px;
   font-size: 14px;
   font-weight: 600;
@@ -591,7 +595,7 @@ img {
   margin-top: 28px;
   padding: 18px 20px;
   border-radius: 2px;
-  background: linear-gradient(180deg, #006eff 0%, #000000 100%);
+  background: linear-gradient(243deg, #1ea8f2 0%, #2f7fe9 40%, #3d56df 70%, #5b16d6 100%);
   border: 1px solid #dbe7ff;
 }
 
@@ -692,24 +696,24 @@ img {
   align-items: center;
   padding: 56px;
   border: 1px solid #e2e8f0;
-  border-radius: 32px;
-  background: linear-gradient(135deg, #020617 0%, #0b3a82 55%, #2563eb 100%);
+  border-radius: 1px;
+  background: linear-gradient(243deg, #1ea8f2 0%, #2f7fe9 40%, #3d56df 70%, #5b16d6 100%);
   box-shadow: 0 28px 60px rgba(191, 219, 254, 0.35);
   color: #ffffff;
   margin-top: 50px;
 }
 
 .wom-cta-content h2 {
-  font-size: 44px;
+  font-size: 32px;
   line-height: 1.12;
-  font-weight: 600;
+  font-weight: 450;
   color: #ffffff;
 }
 
 .wom-cta-content p:last-child {
   margin: 20px 0 0;
   color: #dbeafe;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.6;
 }
 

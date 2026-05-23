@@ -22,7 +22,6 @@ import {
 
 import {
   MdAccountBalance,
-  MdInsights,
   MdSecurity,
   MdTrendingUp,
   MdOutlinePayments,
@@ -280,9 +279,9 @@ export default function BankingFinancialPage() {
             <h1>Banking &amp; Financial Services</h1>
 
             <p className="hero-subheadline">
-              Helping financial institutions modernize banking platforms,
-              strengthen digital trust, and accelerate intelligent financial
-              transformation.
+              Sri Yantra tech helps financial institutions modernize banking
+              platforms, strengthen digital trust, and accelerate intelligent
+              financial transformation.
             </p>
           </div>
         </div>
@@ -293,9 +292,7 @@ export default function BankingFinancialPage() {
           <div className="left-content">
             <p className="section-label">Industry Overview</p>
 
-            <h2>
-              Banking &amp; Financial Services Industry Transformation
-            </h2>
+            <h2>Banking &amp; Financial Services Industry Transformation</h2>
 
             <Image
               src="/hero/7.png"
@@ -315,21 +312,19 @@ export default function BankingFinancialPage() {
             </p>
 
             <p>
-              We help banks and financial organizations modernize core systems,
-              improve digital experiences, and create resilient financial
-              ecosystems.
+              Banks and financial organizations need modern core systems,
+              improved digital experiences, and resilient financial ecosystems.
             </p>
 
             <p>
-              Our consultants combine banking expertise, digital engineering,
-              and data-driven intelligence to enable operational agility and
+              Sri Yantra Tech combines banking expertise, digital engineering, and
+              data-driven intelligence to enable operational agility and
               innovation at scale.
             </p>
 
             <p>
-              We partner with banks, insurers, and financial service providers
-              to accelerate transformation, improve trust, and drive sustainable
-              growth.
+              Banks, insurers, and financial service providers can accelerate
+              transformation, improve trust, and drive sustainable growth.
             </p>
           </div>
         </div>
@@ -369,7 +364,7 @@ export default function BankingFinancialPage() {
                 ref={solutionsBoxRef}
                 className={`solutions-fixed-box solutions-${solutionsMode}`}
               >
-                <p className="section-label">Our Solutions</p>
+                <p className="section-label">Solutions</p>
 
                 <h2>
                   Consulting capabilities designed for banking and financial
@@ -377,9 +372,8 @@ export default function BankingFinancialPage() {
                 </h2>
 
                 <p className="solutions-intro">
-                  We combine strategy, technology modernization, and financial
-                  expertise to help organizations scale securely and innovate
-                  confidently.
+                  Strategy, technology modernization, and financial expertise
+                  help organizations scale securely and innovate confidently.
                 </p>
               </div>
             </div>
@@ -410,7 +404,7 @@ export default function BankingFinancialPage() {
 
             <div className="left-image">
               <Image
-                 src="/hero/8.png"
+                src="/hero/8.png"
                 alt="Financial growth"
                 width={700}
                 height={450}
@@ -442,9 +436,8 @@ export default function BankingFinancialPage() {
               </h2>
 
               <p className="capabilities-description">
-                Our teams integrate banking strategy, digital engineering, and
-                modernization expertise to help financial organizations deliver
-                secure growth.
+                Banking strategy, digital engineering, and modernization
+                expertise help financial organizations deliver secure growth.
               </p>
             </div>
           </div>
@@ -506,12 +499,12 @@ export default function BankingFinancialPage() {
         </div>
       </section>
 
-      <section className="section case-study-section">
+      {/* <section className="section case-study-section">
         <div className="container two-column">
           <div>
             <p className="section-label section-label-light">Case Study</p>
 
-            <h2>How We Help Financial Institutions Scale</h2>
+            <h2>How Financial Institutions Scale</h2>
           </div>
 
           <div className="case-study-card">
@@ -520,9 +513,8 @@ export default function BankingFinancialPage() {
             </p>
 
             <p className="case-study-description">
-              A leading financial institution partnered with Jetsky to modernize
-              its digital banking ecosystem and improve customer engagement
-              across channels.
+              A leading financial institution modernized its digital banking
+              ecosystem and improved customer engagement across channels.
             </p>
 
             <div className="stats-grid">
@@ -580,30 +572,26 @@ export default function BankingFinancialPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="cta-wrapper">
         <div className="container">
           <div className="cta-box">
             <div className="cta-content">
-              <p className="section-label section-label-light">
-                Let’s Talk
-              </p>
+              <p className="section-label section-label-light">Let's Talk</p>
 
               <h2>
-                Partner with Jetsky to Accelerate Financial Transformation
+                Partner with Sri Yantra Tech to Accelerate Financial Transformation
               </h2>
 
               <p>
-                Work with our experts to modernize banking operations, improve
+                Work with experts to modernize banking operations, improve
                 customer trust, and scale intelligent financial platforms.
               </p>
             </div>
 
             <div className="cta-action">
-              <button className="btn btn-white">
-                Start Discussion
-              </button>
+              <button className="btn btn-white">Start Discussion</button>
             </div>
           </div>
         </div>

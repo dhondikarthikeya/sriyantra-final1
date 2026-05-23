@@ -281,8 +281,9 @@ export default function RetailEcommercePage() {
             <h1>Retail &amp; eCommerce</h1>
 
             <p className="hero-subheadline">
-              Helping retail and eCommerce companies modernize customer
-              experiences, optimize operations, and scale digital commerce.
+              Sri Yantra Tech helps retail and eCommerce companies modernize
+              customer experiences, optimize operations, and scale digital
+              commerce.
             </p>
           </div>
         </div>
@@ -315,21 +316,21 @@ export default function RetailEcommercePage() {
             </p>
 
             <p>
-              We help retailers modernize commerce platforms, optimize supply
-              chain operations, and deliver seamless shopping experiences across
-              digital and physical channels.
+              Retailers need modern commerce platforms, optimized supply chain
+              operations, and seamless shopping experiences across digital and
+              physical channels.
             </p>
 
             <p>
-              Our consultants combine retail strategy, technology engineering,
+              Sri Yantra Tech combines retail strategy, technology engineering,
               and analytics-driven insights to improve operational agility and
               customer engagement.
             </p>
 
             <p>
-              We partner with retailers, marketplaces, and consumer brands to
-              accelerate eCommerce innovation, increase fulfillment efficiency,
-              and drive sustainable growth.
+              Retailers, marketplaces, and consumer brands can accelerate
+              eCommerce innovation, increase fulfillment efficiency, and drive
+              sustainable growth.
             </p>
           </div>
         </div>
@@ -371,7 +372,7 @@ export default function RetailEcommercePage() {
                 ref={solutionsBoxRef}
                 className={`solutions-fixed-box solutions-${solutionsMode}`}
               >
-                <p className="section-label">Our Solutions</p>
+                <p className="section-label">Solutions</p>
 
                 <h2>
                   Consulting capabilities designed for retail and eCommerce
@@ -379,9 +380,8 @@ export default function RetailEcommercePage() {
                 </h2>
 
                 <p className="solutions-intro">
-                  We combine strategy, digital commerce, and operational
-                  transformation expertise to help retailers scale growth and
-                  customer engagement.
+                  Strategy, digital commerce, and operational transformation
+                  expertise help retailers scale growth and customer engagement.
                 </p>
               </div>
             </div>
@@ -447,9 +447,8 @@ export default function RetailEcommercePage() {
               </h2>
 
               <p className="capabilities-description">
-                Our teams integrate retail strategy, technology modernization,
-                and operational execution to help commerce businesses deliver
-                measurable growth.
+                Retail strategy, technology modernization, and operational
+                execution help commerce businesses deliver measurable growth.
               </p>
             </div>
           </div>
@@ -512,12 +511,12 @@ export default function RetailEcommercePage() {
       </section>
 
       {/* CASE STUDY */}
-      <section className="section case-study-section">
+      {/* <section className="section case-study-section">
         <div className="container two-column">
           <div>
             <p className="section-label section-label-light">Case Study</p>
 
-            <h2>How We Help Retail Brands Scale</h2>
+            <h2>How Retail Brands Scale</h2>
           </div>
 
           <div className="case-study-card">
@@ -526,8 +525,8 @@ export default function RetailEcommercePage() {
             </p>
 
             <p className="case-study-description">
-              A fast-growing retail brand partnered with Jetsky to modernize its
-              commerce infrastructure and create a seamless omnichannel customer
+              A fast-growing retail brand modernized its commerce
+              infrastructure and created a seamless omnichannel customer
               experience.
             </p>
 
@@ -549,10 +548,10 @@ export default function RetailEcommercePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* INSIGHTS */}
-      <section className="section insights-section">
+      {/* <section className="section insights-section">
         <div className="container">
           <div className="section-header-row insights-header">
             <div className="section-heading section-heading-no-margin">
@@ -587,7 +586,7 @@ export default function RetailEcommercePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="cta-wrapper">
@@ -596,10 +595,12 @@ export default function RetailEcommercePage() {
             <div className="cta-content">
               <p className="section-label section-label-light">Let’s Talk</p>
 
-              <h2>Partner with Jetsky to Accelerate Retail Innovation</h2>
+              <h2>
+                Partner with Sri Yantra Tech to Accelerate Retail Innovation
+              </h2>
 
               <p>
-                Work with our experts to modernize retail operations, optimize
+                Work with experts to modernize retail operations, optimize
                 commerce platforms, and deliver connected customer experiences.
               </p>
             </div>

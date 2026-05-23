@@ -237,10 +237,10 @@ export default function DataAnalyticsEngineeringPage() {
             </h1>
 
             <p className="data-hero-text">
-              We design modern data platforms, scalable pipelines, analytics
-              systems, and governance-ready architectures that transform
-              enterprise data into operational visibility, decision support, and
-              intelligence-ready infrastructure.
+              Sri Yantra Tech designs modern data platforms, scalable pipelines,
+              analytics systems, and governance-ready architectures that
+              transform enterprise data into operational visibility, decision
+              support, and intelligence-ready infrastructure.
             </p>
           </div>
 
@@ -315,8 +315,8 @@ export default function DataAnalyticsEngineeringPage() {
               <p className="data-section-text">
                 Many organizations invest in dashboards and analytics before
                 building the architecture required to support trust, speed, and
-                operational reliability. Data only becomes strategic when it is
-                engineered into a connected enterprise system.
+                operational reliability. Sri Yantra Tech helps data become
+                strategic by engineering it into a connected enterprise system.
               </p>
             </div>
 
@@ -354,9 +354,9 @@ export default function DataAnalyticsEngineeringPage() {
               Engineering Data Systems That Power Decisions
             </h2>
             <p className="data-section-text">
-              We build connected data ecosystems that support enterprise
-              reporting, operational visibility, governance, and long-term
-              intelligence enablement.
+              Sri Yantra Tech builds connected data ecosystems that support
+              enterprise reporting, operational visibility, governance, and
+              long-term intelligence enablement.
             </p>
           </div>
 
@@ -444,9 +444,9 @@ export default function DataAnalyticsEngineeringPage() {
               From Data Strategy to Scalable Intelligence
             </h2>
             <p className="data-section-text data-section-text-light">
-              Every engagement follows a defined operating sequence designed for
-              architecture clarity, engineering discipline, and measurable
-              business value.
+              Every Sri Yantra Tech engagement follows a defined operating
+              sequence designed for architecture clarity, engineering
+              discipline, and measurable business value.
             </p>
           </div>
 
@@ -483,9 +483,9 @@ export default function DataAnalyticsEngineeringPage() {
                 Turning Data into Operational Intelligence
               </h2>
               <p className="data-section-text">
-                We design environments where data becomes an active part of
-                execution, monitoring, forecasting, and decision support across
-                the enterprise.
+                Sri Yantra Tech designs environments where data becomes an
+                active part of execution, monitoring, forecasting, and decision
+                support across the enterprise.
               </p>
             </div>
           </div>
@@ -517,9 +517,10 @@ export default function DataAnalyticsEngineeringPage() {
                   Engineering-First Approach to Data
                 </h2>
                 <p className="data-section-text">
-                  We treat data as a systems discipline. That means scalable
-                  architecture, reliable implementation, governed operations,
-                  and long-term readiness for analytics and AI growth.
+                  Sri Yantra Tech treats data as a systems discipline. That
+                  means scalable architecture, reliable implementation,
+                  governed operations, and long-term readiness for analytics and
+                  AI growth.
                 </p>
               </div>
             </div>
@@ -545,13 +546,14 @@ export default function DataAnalyticsEngineeringPage() {
                 Build Data Systems That Drive Real Decisions
               </h2>
               <p className="data-cta-text">
-                Architect scalable data foundations, analytics platforms, and
-                intelligence-ready systems built for long-term business value.
+                Work with Sri Yantra Tech to architect scalable data
+                foundations, analytics platforms, and intelligence-ready systems
+                built for long-term business value.
               </p>
             </div>
 
             <div className="data-cta-action">
-              <a href="/contact" className="data-btn data-btn-white">
+              <a href="/marketing/contact" className="data-btn data-btn-white">
                 Start the Conversation
               </a>
             </div>

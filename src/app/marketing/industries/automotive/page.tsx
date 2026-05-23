@@ -280,8 +280,9 @@ export default function AutomotiveMobilityPage() {
             <h1>Automotive &amp; Mobility</h1>
 
             <p className="hero-subheadline">
-              Helping automotive and mobility companies accelerate digital
-              transformation, connected mobility, and intelligent manufacturing.
+              Sri Yantra Tech helps automotive and mobility companies accelerate
+              digital transformation, connected mobility, and intelligent
+              manufacturing.
             </p>
           </div>
         </div>
@@ -313,19 +314,20 @@ export default function AutomotiveMobilityPage() {
             </p>
 
             <p>
-              We help mobility organizations modernize operations, improve
-              manufacturing agility, and deliver intelligent connected
-              experiences.
+              Mobility organizations need modern operations, stronger
+              manufacturing agility, and intelligent connected experiences to
+              stay competitive.
             </p>
 
             <p>
-              Our consultants combine automotive expertise, digital engineering,
-              and advanced analytics to support innovation at scale.
+              Sri Yantra Tech combines automotive expertise, digital
+              engineering, and advanced analytics to support innovation at
+              scale.
             </p>
 
             <p>
-              We partner with OEMs, suppliers, and mobility providers to
-              accelerate transformation and create sustainable growth.
+              OEMs, suppliers, and mobility providers can accelerate
+              transformation while creating more sustainable growth.
             </p>
           </div>
         </div>
@@ -365,7 +367,7 @@ export default function AutomotiveMobilityPage() {
                 ref={solutionsBoxRef}
                 className={`solutions-fixed-box solutions-${solutionsMode}`}
               >
-                <p className="section-label">Our Solutions</p>
+                <p className="section-label">Solutions</p>
 
                 <h2>
                   Consulting capabilities designed for automotive and mobility
@@ -373,9 +375,9 @@ export default function AutomotiveMobilityPage() {
                 </h2>
 
                 <p className="solutions-intro">
-                  We combine strategy, mobility engineering, and digital
-                  modernization expertise to help organizations innovate faster
-                  and scale globally.
+                  Strategy, mobility engineering, and digital modernization
+                  expertise help organizations innovate faster and scale
+                  globally.
                 </p>
               </div>
             </div>
@@ -438,9 +440,8 @@ export default function AutomotiveMobilityPage() {
               </h2>
 
               <p className="capabilities-description">
-                Our teams integrate mobility strategy, engineering excellence,
-                and digital transformation to help automotive organizations
-                scale efficiently.
+                Mobility strategy, engineering excellence, and digital
+                transformation help automotive organizations scale efficiently.
               </p>
             </div>
           </div>
@@ -502,12 +503,12 @@ export default function AutomotiveMobilityPage() {
         </div>
       </section>
 
-      <section className="section case-study-section">
+      {/* <section className="section case-study-section">
         <div className="container two-column">
           <div>
             <p className="section-label section-label-light">Case Study</p>
 
-            <h2>How We Help Automotive Companies Scale</h2>
+            <h2>How Automotive Companies Scale</h2>
           </div>
 
           <div className="case-study-card">
@@ -516,9 +517,8 @@ export default function AutomotiveMobilityPage() {
             </p>
 
             <p className="case-study-description">
-              A leading automotive manufacturer partnered with Jetsky to
-              modernize connected vehicle systems and optimize global production
-              operations.
+              A leading automotive manufacturer modernized connected vehicle
+              systems and optimized global production operations.
             </p>
 
             <div className="stats-grid">
@@ -576,31 +576,27 @@ export default function AutomotiveMobilityPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="cta-wrapper">
         <div className="container">
           <div className="cta-box">
             <div className="cta-content">
-              <p className="section-label section-label-light">
-                Let’s Talk
-              </p>
+              <p className="section-label section-label-light">Let’s Talk</p>
 
               <h2>
-                Partner with Jetsky to Accelerate Mobility Innovation
+                Partner with Sri Yantra Tech to Accelerate Mobility Innovation
               </h2>
 
               <p>
-                Work with our experts to modernize automotive operations,
-                improve connected mobility experiences, and scale intelligent
+                Work with experts to modernize automotive operations, improve
+                connected mobility experiences, and scale intelligent
                 manufacturing systems.
               </p>
             </div>
 
             <div className="cta-action">
-              <button className="btn btn-white">
-                Start Discussion
-              </button>
+              <button className="btn btn-white">Start Discussion</button>
             </div>
           </div>
         </div>

@@ -12,19 +12,13 @@ import {
   Cog,
   Bot,
   Database,
-  Cloud,
-  MonitorSmartphone,
-  Cpu,
-  Radio,
-  Shield,
   Briefcase,
   Factory,
   Car,
-  Zap,
-  Building2,
   Landmark,
   ShoppingBag,
   Clapperboard,
+  Sparkles,
 } from "lucide-react";
 import "./nav.css";
 
@@ -71,36 +65,6 @@ const links: NavLinkItem[] = [
         icon: Database,
         colorClass: "iconCyan",
       },
-      // {
-      //   label: "Cloud & Infrastructure Engineering",
-      //   href: "/services/cloud-infrastructure-engineering",
-      //   icon: Cloud,
-      //   colorClass: "iconSky",
-      // },
-      // {
-      //   label: "Experience & Interface Design",
-      //   href: "/services/experience-interface-design",
-      //   icon: MonitorSmartphone,
-      //   colorClass: "iconTeal",
-      // },
-      // {
-      //   label: "Industrial & Physical Systems Engineering",
-      //   href: "/services/industrial-physical-systems-engineering",
-      //   icon: Cpu,
-      //   colorClass: "iconOrange",
-      // },
-      // {
-      //   label: "Edge AI & IoT Systems",
-      //   href: "/services/edge-ai-iot-systems",
-      //   icon: Radio,
-      //   colorClass: "iconPink",
-      // },
-      // {
-      //   label: "Cybersecurity Engineering",
-      //   href: "/services/cybersecurity-engineering",
-      //   icon: Shield,
-      //   colorClass: "iconGreen",
-      // },
     ],
   },
   { label: "Operating Model", href: "/marketing/operating-model" },
@@ -126,18 +90,6 @@ const links: NavLinkItem[] = [
         icon: Car,
         colorClass: "iconRed",
       },
-      // {
-      //   label: "Energy & Utilities",
-      //   href: "/industries/energy-utilities",
-      //   icon: Zap,
-      //   colorClass: "iconYellow",
-      // },
-      // {
-      //   label: "Infrastructure & Construction",
-      //   href: "/industries/infrastructure-construction",
-      //   icon: Building2,
-      //   colorClass: "iconSky",
-      // },
       {
         label: "Banking & Financial Services",
         href: "/marketing/industries/banking",
@@ -158,7 +110,6 @@ const links: NavLinkItem[] = [
       },
     ],
   },
-  { label: "Insights", href: "/marketing/insights" },
   { label: "About", href: "/marketing/about" },
 ];
 
@@ -168,19 +119,85 @@ export default function Nav() {
   const dropdownWrapRef = useRef<HTMLDivElement | null>(null);
   const hoverTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const triggerRefs = useRef<Record<string, HTMLButtonElement | null>>({});
+  const lastScrollYRef = useRef(0);
+  const lockedScrollYRef = useRef(0);
+  const tickingRef = useRef(false);
 
   const [mobileOpen, setMobileOpen] = useState(false);
   const [desktopDropdown, setDesktopDropdown] = useState<string | null>(null);
   const [pointerLeft, setPointerLeft] = useState<number | null>(null);
   const [mobileExpanded, setMobileExpanded] = useState<Record<string, boolean>>({});
+  const [navHidden, setNavHidden] = useState(false);
 
   useEffect(() => {
     setMobileOpen(false);
     setDesktopDropdown(null);
     setPointerLeft(null);
     setMobileExpanded({});
+    setNavHidden(false);
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, [pathname]);
+
+  useEffect(() => {
+    if (!mobileOpen) return;
+
+    lockedScrollYRef.current = window.scrollY;
+
+    const originalBodyPosition = document.body.style.position;
+    const originalBodyTop = document.body.style.top;
+    const originalBodyWidth = document.body.style.width;
+    const originalBodyOverflow = document.body.style.overflow;
+    const originalHtmlOverflow = document.documentElement.style.overflow;
+
+    document.documentElement.style.overflow = "hidden";
+    document.body.style.position = "fixed";
+    document.body.style.top = `-${lockedScrollYRef.current}px`;
+    document.body.style.width = "100%";
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.documentElement.style.overflow = originalHtmlOverflow;
+      document.body.style.position = originalBodyPosition;
+      document.body.style.top = originalBodyTop;
+      document.body.style.width = originalBodyWidth;
+      document.body.style.overflow = originalBodyOverflow;
+      window.scrollTo({ top: lockedScrollYRef.current, left: 0, behavior: "auto" });
+    };
+  }, [mobileOpen]);
+
+  useEffect(() => {
+    lastScrollYRef.current = window.scrollY;
+
+    const handleScroll = () => {
+      if (mobileOpen || tickingRef.current) return;
+
+      tickingRef.current = true;
+
+      window.requestAnimationFrame(() => {
+        const currentY = window.scrollY;
+        const previousY = lastScrollYRef.current;
+        const delta = currentY - previousY;
+
+        if (currentY <= 24) {
+          setNavHidden(false);
+        } else if (delta > 8 && currentY > 120) {
+          setNavHidden(true);
+          setDesktopDropdown(null);
+        } else if (delta < -8) {
+          setNavHidden(false);
+        }
+
+        lastScrollYRef.current = currentY;
+        tickingRef.current = false;
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [mobileOpen]);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -250,6 +267,7 @@ export default function Nav() {
 
   const openDesktopDropdown = (label: string) => {
     if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
+    setNavHidden(false);
     setDesktopDropdown(label);
   };
 
@@ -272,80 +290,76 @@ export default function Nav() {
   };
 
   return (
-    <header className="sytHeader" ref={headerRef}>
-      <div className="sytContainer">
-        <div className="sytRow">
-          <Link href="/" className="sytLogo">
-            jetsky
-          </Link>
+    <header className={`sytHeader ${navHidden ? "sytHeaderHidden" : ""}`} ref={headerRef}>
+      <div className="sytShell">
+        <Link href="/" className="sytLogo" onClick={closeAll} aria-label="jetsky home">
+          <img src="/hero/logo.png" alt="jetsky" className="sytLogoImg" />
+        </Link>
 
-          <nav
-            className="sytNavDesktop"
-            onMouseLeave={closeDesktopDropdownWithDelay}
-          >
-            {links.map((item) => {
-              const active = isActive(item.href, item.children);
-              const hasChildren = !!item.children?.length;
-              const isOpen = desktopDropdown === item.label;
+        <nav className="sytNavDesktop" onMouseLeave={closeDesktopDropdownWithDelay}>
+          {links.map((item) => {
+            const active = isActive(item.href, item.children);
+            const hasChildren = !!item.children?.length;
+            const isOpen = desktopDropdown === item.label;
 
-              if (!hasChildren) {
-                return (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className={`sytNavLink ${active ? "active" : ""}`}
-                    onMouseEnter={() => {
-                      if (desktopDropdown) closeDesktopDropdownWithDelay();
-                    }}
-                  >
-                    {item.label}
-                  </Link>
-                );
-              }
-
+            if (!hasChildren) {
               return (
-                <div
+                <Link
                   key={item.href}
-                  className={`sytNavItem ${isOpen ? "open" : ""}`}
-                  onMouseEnter={() => openDesktopDropdown(item.label)}
+                  href={item.href}
+                  data-label={item.label}
+                  className={`sytNavLink ${active ? "active" : ""}`}
+                  onMouseEnter={() => {
+                    if (desktopDropdown) closeDesktopDropdownWithDelay();
+                  }}
                 >
-                  <button
-                    ref={(el) => {
-                      triggerRefs.current[item.label] = el;
-                    }}
-                    type="button"
-                    className={`sytNavTrigger ${active ? "active" : ""}`}
-                    onMouseEnter={() => openDesktopDropdown(item.label)}
-                    aria-expanded={isOpen}
-                    aria-label={`Toggle ${item.label} menu`}
-                  >
-                    <span>{item.label}</span>
-                    <ChevronDown size={16} className="sytNavChevron" />
-                  </button>
-                </div>
+                  {item.label}
+                </Link>
               );
-            })}
-          </nav>
+            }
 
-          <div className="sytCtaDesktop">
-            <Link href="/marketing/contact" className="sytCtaBtn">
-              Start Discussion
-            </Link>
-          </div>
+            return (
+              <div
+                key={item.href}
+                className={`sytNavItem ${isOpen ? "open" : ""}`}
+                onMouseEnter={() => openDesktopDropdown(item.label)}
+              >
+                <button
+                  ref={(el) => {
+                    triggerRefs.current[item.label] = el;
+                  }}
+                  type="button"
+                  data-label={item.label}
+                  className={`sytNavTrigger ${active ? "active" : ""}`}
+                  aria-expanded={isOpen}
+                  aria-label={`Toggle ${item.label} menu`}
+                >
+                  <span>{item.label}</span>
+                  <ChevronDown size={16} className="sytNavChevron" />
+                </button>
+              </div>
+            );
+          })}
+        </nav>
 
-          <button
-            className="sytMobileBtn"
-            onClick={() => {
-              setMobileOpen((prev) => !prev);
-              setMobileExpanded({});
-            }}
-            aria-label="Toggle Menu"
-            aria-expanded={mobileOpen}
-            type="button"
-          >
-            {mobileOpen ? <X size={22} /> : <Menu size={22} />}
-          </button>
-        </div>
+        <Link href="/marketing/contact" className="sytCtaBtn">
+          <Sparkles size={18} />
+          <span>Start Discussion</span>
+        </Link>
+
+        <button
+          className="sytMenuOrb"
+          onClick={() => {
+            setMobileOpen((prev) => !prev);
+            setMobileExpanded({});
+            setNavHidden(false);
+          }}
+          aria-label={mobileOpen ? "Close Menu" : "Open Menu"}
+          aria-expanded={mobileOpen}
+          type="button"
+        >
+          {mobileOpen ? <X size={24} /> : <Menu size={25} />}
+        </button>
       </div>
 
       <div
@@ -353,7 +367,7 @@ export default function Nav() {
         onMouseEnter={keepDesktopDropdownOpen}
         onMouseLeave={closeDesktopDropdownWithDelay}
       >
-        <div className="sytContainer sytDropdownContainer">
+        <div className="sytDropdownContainer">
           {links
             .filter((item) => item.label === desktopDropdown && item.children?.length)
             .map((item) => (
@@ -362,12 +376,11 @@ export default function Nav() {
                   className="sytCenteredDropdownPointer"
                   style={pointerLeft !== null ? { left: `${pointerLeft}px` } : undefined}
                 />
+
                 <div className="sytMegaMenuInner">
-                  <div className="sytMegaMenuTop sytMegaMenuTopNoButton">
-                    <div>
-                      <p className="sytMegaEyebrow">{item.label}</p>
-                      <h4 className="sytMegaTitle">Explore {item.label}</h4>
-                    </div>
+                  <div className="sytMegaMenuTop">
+                    <p className="sytMegaEyebrow">{item.label}</p>
+                    <h4 className="sytMegaTitle">Explore {item.label}</h4>
                   </div>
 
                   <div className="sytMegaGrid">

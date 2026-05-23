@@ -272,10 +272,9 @@ export default function TechnologySaaSPage() {
           <div className="hero-content">
             <h1>Technology &amp; SaaS</h1>
             <p className="hero-subheadline">
-              Helping technology companies accelerate innovation, scale
-              platforms, and build resilient digital businesses.
+              Sri Yantra Tech helps technology companies accelerate innovation,
+              scale platforms, and build resilient digital businesses.
             </p>
-            
           </div>
         </div>
       </section>
@@ -299,19 +298,19 @@ export default function TechnologySaaSPage() {
               while maintaining scalable and secure platforms.
             </p>
             <p>
-              We help software companies modernize their technology stack,
-              optimize product engineering, and adopt cloud-native operating
-              models that support rapid growth.
+              Software companies need modern technology stacks, optimized
+              product engineering, and cloud-native operating models that
+              support rapid growth.
             </p>
             <p>
-              Our consultants combine product strategy, engineering excellence,
-              and data-driven decision making to enable technology organizations
-              to deliver continuous innovation.
+              Sri Yantra Tech combines product strategy, engineering excellence,
+              and data-driven decision making to help technology organizations
+              deliver continuous innovation.
             </p>
             <p>
-              We partner with software companies, cloud platforms, and digital
-              innovators to design scalable architectures, accelerate product
-              development, and unlock new revenue streams.
+              Software companies, cloud platforms, and digital innovators can
+              design scalable architectures, accelerate product development, and
+              unlock new revenue streams.
             </p>
           </div>
         </div>
@@ -347,12 +346,11 @@ export default function TechnologySaaSPage() {
                 ref={solutionsBoxRef}
                 className={`solutions-fixed-box solutions-${solutionsMode}`}
               >
-                <p className="section-label">Our Solutions</p>
+                <p className="section-label">Solutions</p>
                 <h2>Consulting capabilities designed for technology companies</h2>
                 <p className="solutions-intro">
-                  We combine strategy, engineering, and modernization expertise
-                  to help technology businesses scale products, platforms, and
-                  growth.
+                  Strategy, engineering, and modernization expertise help
+                  technology businesses scale products, platforms, and growth.
                 </p>
               </div>
             </div>
@@ -403,9 +401,9 @@ export default function TechnologySaaSPage() {
                 Core domains supporting platform modernization and digital scale
               </h2>
               <p className="capabilities-description">
-                Our teams integrate strategic advisory, engineering execution,
-                and modernization capabilities to help technology businesses
-                deliver performance at scale.
+                Strategic advisory, engineering execution, and modernization
+                capabilities help technology businesses deliver performance at
+                scale.
               </p>
             </div>
           </div>
@@ -463,19 +461,18 @@ export default function TechnologySaaSPage() {
         </div>
       </section>
 
-      <section className="section case-study-section">
+      {/* <section className="section case-study-section">
         <div className="container two-column">
           <div>
             <p className="section-label section-label-light">Case Study</p>
-            <h2>How We Help Technology Companies Scale</h2>
+            <h2>How Technology Companies Scale</h2>
           </div>
 
           <div className="case-study-card">
             <p className="case-study-tag">Global SaaS Platform Transformation</p>
             <p className="case-study-description">
-              A rapidly growing SaaS provider partnered with Jetsky to modernize
-              its platform architecture and transition to a cloud-native
-              infrastructure.
+              A rapidly growing SaaS provider modernized its platform
+              architecture and transitioned to a cloud-native infrastructure.
             </p>
 
             <div className="stats-grid">
@@ -528,16 +525,18 @@ export default function TechnologySaaSPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="cta-wrapper">
         <div className="container">
           <div className="cta-box">
             <div className="cta-content">
               <p className="section-label section-label-light">Let’s Talk</p>
-              <h2>Partner with Jetsky to Accelerate Technology Innovation</h2>
+              <h2>
+                Partner with Sri Yantra Tech to Accelerate Technology Innovation
+              </h2>
               <p>
-                Work with our experts to design scalable platforms, launch
+                Work with experts to design scalable platforms, launch
                 innovative digital products, and grow your technology business.
               </p>
             </div>

@@ -57,7 +57,7 @@
   grid-template-columns: 1.2fr 0.8fr;
   gap: 80px;
   align-items: flex-start;
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 64px;
   min-height: 100vh;
 }
@@ -92,7 +92,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0.75rem;
+  border-radius: 0.1rem;
   padding: 0.875rem 1.5rem;
   font-size: 0.875rem;
   font-weight: 600;
@@ -485,13 +485,8 @@
 .strategic-cta {
   overflow: hidden;
   /* border-radius: 1rem; */
-  background: linear-gradient(
-    90deg,
-    #1ea8f2 0%,
-    #2f7fe9 40%,
-    #3d56df 70%,
-    #5b16d6 100%
-  );
+  background: linear-gradient(243deg, #1ea8f2 0%, #2f7fe9 40%, #3d56df 70%, #5b16d6 100%);
+
   display: grid;
   gap: 2rem;
   padding: 2rem 1.25rem;
@@ -514,7 +509,7 @@
   margin-top: 0.75rem;
   font-size: 2rem;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 450;
   letter-spacing: -0.03em;
   color: #ffffff;
 }
@@ -634,9 +629,9 @@
     min-height: auto;
   }
 
-  .strategic-hero-text {
-    font-size: 0.85rem;
-    line-height: 1.65rem;
+  .strategic-hero-text,.strategic-section-text {
+    font-size: 0.7rem;
+    line-height: 1.1rem;
   }
 
   .strategic-stats {
@@ -789,7 +784,7 @@
   }
 
   .strategic-card-text {
-    font-size: 0.88rem;
+    font-size: 0.8rem;
     line-height: 1.6;
   }
 }

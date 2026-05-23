@@ -180,42 +180,39 @@ const differentiators = [
 const industries: IndustryCard[] = [
   {
     title: "Technology & SaaS",
-    text: "Digital platforms, product ecosystems, API-led services, cloud-native systems, and scalable engineering foundations.",
+    
     image: "/industries/saas.png",
   },
   {
     title: "Manufacturing & Industrial",
-    text: "Connected operations, telemetry-enabled workflows, analytics environments, and engineering-aware digital platforms.",
+   
     image: "/industries/manufacturing.png",
   },
   {
     title: "Automotive & Mobility",
-    text: "Systems supporting data-driven engineering, modern mobility platforms, and complex operational ecosystems.",
     image: "/industries/automotive.png",
   },
   {
     title: "Energy & Utilities",
-    text: "Resilient, monitored, and intelligence-ready infrastructure environments for asset-intensive operational domains.",
     image: "/industries/energy.png",
   },
   {
     title: "Infrastructure & Construction",
-    text: "Integrated planning, engineering workflows, asset visibility, and system modernization for operational delivery environments.",
     image: "/industries/infra.png",
   },
   {
     title: "Banking & Financial Services",
-    text: "Secure platforms, workflow intelligence, scalable data foundations, and resilient digital operating models for regulated domains.",
+   
     image: "/industries/banking.png",
   },
   {
     title: "Retail & E-Commerce",
-    text: "Connected commerce platforms, customer intelligence, operational analytics, and modern digital ecosystem design.",
+  
     image: "/industries/retail.png",
   },
   {
     title: "Media & Entertainment",
-    text: "Scalable content platforms, data-aware experiences, workflow automation, and infrastructure patterns built for dynamic demand.",
+    
     image: "/hero/11.png",
   },
 ];
@@ -316,7 +313,7 @@ export default function AboutPage() {
         <div className="about-hero-overlay" />
         <div className="container">
           <div className="about-hero-inner">
-            <span className="eyebrow">About Sri Yantra Tech</span>
+            {/* <span className="eyebrow">About Sri Yantra Tech</span> */}
 
             <h1 className="about-title">
               Engineering Intelligent Systems for a Scalable Future
@@ -690,8 +687,7 @@ export default function AboutPage() {
           <div className="about-cta-card">
             <p className="section-label">Build Systems That Are Structured to Scale</p>
             <h2>
-              Bring digital transformation, AI integration, cloud modernization,
-              data platforms, and industrial intelligence into one coherent system.
+             Bring the Enterprise Intelligence Fabric
             </h2>
             <p>
               Sri Yantra Tech helps organizations engineer operating environments
@@ -703,9 +699,9 @@ export default function AboutPage() {
               <a href="/marketing/contact" className="btn btn-primary">
                 Start the Conversation
               </a>
-              <a href="/marketing/services" className="btn btn-secondary">
+              {/* <a href="/marketing/services" className="btn btn-secondary">
                 Explore Services
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

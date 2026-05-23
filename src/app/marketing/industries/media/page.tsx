@@ -22,7 +22,6 @@ import {
 
 import {
   MdMovie,
-  MdInsights,
   MdSecurity,
   MdTrendingUp,
   MdOutlineLiveTv,
@@ -280,9 +279,9 @@ export default function MediaEntertainmentPage() {
             <h1>Media &amp; Entertainment</h1>
 
             <p className="hero-subheadline">
-              Helping media and entertainment companies modernize digital
-              experiences, scale streaming ecosystems, and engage audiences
-              globally.
+              Sri Yantra Tech helps media and entertainment companies modernize
+              digital experiences, scale streaming ecosystems, and engage
+              audiences globally.
             </p>
           </div>
         </div>
@@ -293,9 +292,7 @@ export default function MediaEntertainmentPage() {
           <div className="left-content">
             <p className="section-label">Industry Overview</p>
 
-            <h2>
-              Media &amp; Entertainment Industry Transformation
-            </h2>
+            <h2>Media &amp; Entertainment Industry Transformation</h2>
 
             <Image
               src="/hero/11.png"
@@ -316,21 +313,20 @@ export default function MediaEntertainmentPage() {
             </p>
 
             <p>
-              We help media companies modernize platforms, improve content
-              delivery, and create connected entertainment ecosystems across
-              channels.
+              Companies need modern platforms, stronger content delivery, and
+              connected entertainment ecosystems across channels.
             </p>
 
             <p>
-              Our consultants combine media expertise, digital engineering, and
+              Sri Yantra Tech combines media expertise, digital engineering, and
               analytics-driven intelligence to enable scalable audience growth
               and engagement.
             </p>
 
             <p>
-              We partner with broadcasters, publishers, streaming providers, and
-              entertainment brands to accelerate innovation and improve customer
-              experiences globally.
+              Broadcasters, publishers, streaming providers, and entertainment
+              brands can accelerate innovation and improve customer experiences
+              globally.
             </p>
           </div>
         </div>
@@ -370,7 +366,7 @@ export default function MediaEntertainmentPage() {
                 ref={solutionsBoxRef}
                 className={`solutions-fixed-box solutions-${solutionsMode}`}
               >
-                <p className="section-label">Our Solutions</p>
+                <p className="section-label">Solutions</p>
 
                 <h2>
                   Consulting capabilities designed for media and entertainment
@@ -378,8 +374,8 @@ export default function MediaEntertainmentPage() {
                 </h2>
 
                 <p className="solutions-intro">
-                  We combine strategy, digital media expertise, and technology
-                  modernization to help entertainment companies scale audience
+                  Strategy, digital media expertise, and technology
+                  modernization help entertainment companies scale audience
                   engagement and innovation.
                 </p>
               </div>
@@ -411,7 +407,7 @@ export default function MediaEntertainmentPage() {
 
             <div className="left-image">
               <Image
-                src="/hero/12.png"  
+                src="/hero/12.png"
                 alt="Media growth"
                 width={700}
                 height={450}
@@ -443,9 +439,8 @@ export default function MediaEntertainmentPage() {
               </h2>
 
               <p className="capabilities-description">
-                Our teams integrate media strategy, digital engineering, and
-                operational modernization to help entertainment businesses scale
-                globally.
+                Media strategy, digital engineering, and operational
+                modernization help entertainment businesses scale globally.
               </p>
             </div>
           </div>
@@ -507,12 +502,12 @@ export default function MediaEntertainmentPage() {
         </div>
       </section>
 
-      <section className="section case-study-section">
+      {/* <section className="section case-study-section">
         <div className="container two-column">
           <div>
             <p className="section-label section-label-light">Case Study</p>
 
-            <h2>How We Help Entertainment Brands Scale</h2>
+            <h2>How Entertainment Brands Scale</h2>
           </div>
 
           <div className="case-study-card">
@@ -521,9 +516,8 @@ export default function MediaEntertainmentPage() {
             </p>
 
             <p className="case-study-description">
-              A leading entertainment company partnered with Jetsky to modernize
-              its streaming ecosystem and improve audience engagement across
-              digital platforms.
+              A leading entertainment company modernized its streaming ecosystem
+              and improved audience engagement across digital platforms.
             </p>
 
             <div className="stats-grid">
@@ -581,31 +575,27 @@ export default function MediaEntertainmentPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="cta-wrapper">
         <div className="container">
           <div className="cta-box">
             <div className="cta-content">
-              <p className="section-label section-label-light">
-                Let’s Talk
-              </p>
+              <p className="section-label section-label-light">Let’s Talk</p>
 
               <h2>
-                Partner with Jetsky to Accelerate Media Transformation
+                Partner with Sri Yantra Tech to Accelerate Media Transformation
               </h2>
 
               <p>
-                Work with our experts to modernize entertainment platforms,
-                optimize audience engagement, and scale connected digital media
+                Work with experts to modernize entertainment platforms, optimize
+                audience engagement, and scale connected digital media
                 experiences.
               </p>
             </div>
 
             <div className="cta-action">
-              <button className="btn btn-white">
-                Start Discussion
-              </button>
+              <button className="btn btn-white">Start Discussion</button>
             </div>
           </div>
         </div>

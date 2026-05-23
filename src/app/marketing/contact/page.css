@@ -54,7 +54,7 @@ body {
 
   overflow: hidden;
 
-  background-image: url("/hero/bg17.png");
+  background-image: url("/hero/34.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,7 +79,7 @@ body {
 
   max-width: 860px;
 
-  padding: 120px 0 80px;
+  padding: 180px 0 60px;
 }
 
 .sd-title {

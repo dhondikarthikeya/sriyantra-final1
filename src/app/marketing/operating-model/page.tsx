@@ -66,7 +66,8 @@ const pipelineSteps: CardItem[] = [
   },
   {
     title: "Optimization",
-    description: "Monitor, tune, scale, secure, and continuously improve.",
+    description:
+      "Monitor, tune, scale, secure, and continuously improve systems.",
     icon: <MdAutoGraph color="#2B4B9B" />,
   },
 ];
@@ -77,7 +78,7 @@ const phases: Phase[] = [
     title: "Strategic Alignment",
     icon: <FaBullseye color="#2563EB" />,
     description:
-      "We begin by aligning system direction to business priorities, technical realities, and execution risk before any build work begins.",
+      "Begins by aligning system direction to business priorities, technical realities, and execution risk before any build work begins.",
     points: [
       "Business objective mapping",
       "Technical constraint analysis",
@@ -93,7 +94,7 @@ const phases: Phase[] = [
     title: "Architecture & System Design",
     icon: <MdArchitecture color="#7C3AED" />,
     description:
-      "We design the structural blueprint that connects applications, data, cloud, security, and operating requirements into one scalable model.",
+      "Designs the structural blueprint that connects applications, data, cloud, security, and operating requirements into one scalable model.",
     points: [
       "Application architecture blueprint",
       "Data flow and interaction modeling",
@@ -108,7 +109,7 @@ const phases: Phase[] = [
     title: "Engineering Execution",
     icon: <FaCogs color="#F59E0B" />,
     description:
-      "We translate architecture into production-ready systems through disciplined engineering, modular development, and delivery automation.",
+      "Translates architecture into production-ready systems through disciplined engineering, modular development, and delivery automation.",
     points: [
       "Agile and iterative delivery",
       "Modular system development",
@@ -123,7 +124,7 @@ const phases: Phase[] = [
     title: "Intelligence Integration",
     icon: <FaBrain color="#8B5CF6" />,
     description:
-      "We embed intelligence into the operating layer so systems can automate workflows, assist decisions, and improve outcomes continuously.",
+      "Embeds intelligence into the operating layer so systems can automate workflows, assist decisions, and improve outcomes continuously.",
     points: [
       "AI agent deployment",
       "Workflow automation",
@@ -138,7 +139,7 @@ const phases: Phase[] = [
     title: "Continuous Optimization",
     icon: <FaChartLine color="#10B981" />,
     description:
-      "We harden and evolve systems after deployment through observability, tuning, cost control, and predictive scaling.",
+      "Hardens and evolves systems after deployment through observability, tuning, cost control, and predictive scaling.",
     points: [
       "Monitoring and observability systems",
       "Performance tuning and scaling",
@@ -166,7 +167,7 @@ const principles: CardItem[] = [
   {
     title: "Intelligence Embedded by Design",
     description:
-      "AI is built into workflows, decisions, and system behavior - not added as a disconnected feature later.",
+      "AI is built into workflows, decisions, and system behavior - not added later as a disconnected feature.",
     icon: <FaBrain color="#8B5CF6" />,
   },
   {
@@ -199,19 +200,19 @@ const differentiators: CardItem[] = [
   {
     title: "Integrated Digital + Physical Thinking",
     description:
-      "We connect software, infrastructure, data, AI, and industrial realities into one operating model.",
+      "Software, infrastructure, data, AI, and industrial realities are connected into one operating model.",
     icon: <FaProjectDiagram color="#F59E0B" />,
   },
   {
     title: "Lifecycle Ownership",
     description:
-      "We think beyond launch - into monitoring, hardening, evolution, and long-term value creation.",
+      "The model looks beyond launch into monitoring, hardening, evolution, and long-term value creation.",
     icon: <FaSyncAlt color="#10B981" />,
   },
   {
     title: "Security as a Structural Layer",
     description:
-      "Security, resilience, and governance are built into architecture, not treated as an afterthought.",
+      "Security, resilience, and governance are built into architecture, not treated as afterthoughts.",
     icon: <MdSecurity color="#EF4444" />,
   },
 ];
@@ -265,18 +266,17 @@ export default function OperatingModelPage() {
       <section
         className="wom-hero-section"
         style={{
-          backgroundImage: "url('/hero/strategy.png')",
+          backgroundImage: "url('/hero/33.png')",
         }}
       >
         <div className="wom-hero-overlay" />
         <div className="wom-container wom-hero-grid">
           <div className="wom-hero-content">
-            {/* <p className="wom-hero-eyebrow">Sri Yantra Tech - Operating Model</p> */}
             <h1>Structured Execution for Scalable Systems</h1>
             <p className="wom-hero-subheadline">
-              We follow a defined operating model that transforms strategy into
-              engineered, intelligent, and scalable systems across digital, AI,
-              cloud, data, and industrial domains.
+              Sri Yantra Tech follows a defined operating model that transforms
+              strategy into engineered, intelligent, and scalable systems across
+              digital, AI, cloud, data, and industrial domains.
             </p>
           </div>
         </div>
@@ -297,14 +297,14 @@ export default function OperatingModelPage() {
 
           <div className="wom-text-stack wom-intro-text">
             <p>
-              Every engagement follows a structured lifecycle built to move from
-              clarity to execution without disconnects between planning,
-              engineering, and intelligence.
+              Every Sri Yantra Tech engagement follows a structured lifecycle
+              built to move from clarity to execution without disconnects
+              between planning, engineering, and intelligence.
             </p>
             <p>
               Rather than treating strategy, architecture, delivery, and
-              optimization as separate tracks, we connect them into one
-              integrated operating model.
+              optimization as separate tracks, the operating model connects them
+              into one integrated system.
             </p>
             <p>
               This allows systems to be designed for long-term scalability,
@@ -377,9 +377,8 @@ export default function OperatingModelPage() {
                 <p className="wom-section-label">Execution Model</p>
                 <h2>Five connected phases. One scalable system path.</h2>
                 <p className="wom-phases-intro">
-                  Each phase builds on the one before it, ensuring strategy,
-                  architecture, engineering, intelligence, and optimization
-                  operate as one continuous system.
+                  Sri Yantra Tech connects strategy, architecture, engineering,
+                  intelligence, and optimization into one continuous system path.
                 </p>
 
                 <div className="wom-mini-flow">
@@ -451,41 +450,6 @@ export default function OperatingModelPage() {
         </div>
       </section>
 
-      <section className="wom-section wom-case-study-section">
-        <div className="wom-container wom-two-column wom-case-layout">
-          <div>
-            <p className="wom-section-label wom-section-label-light">
-              Execution Outcome
-            </p>
-            <h2>Built for Long-Term Scalability, Not One-Time Delivery</h2>
-          </div>
-
-          <div className="wom-case-study-card">
-            <p className="wom-case-study-tag">Structured System Delivery</p>
-            <p className="wom-case-study-description">
-              By aligning objectives, architecture, engineering discipline,
-              intelligence integration, and continuous optimization, teams move
-              from fragmented implementation to coherent system execution.
-            </p>
-
-            <div className="wom-stats-grid">
-              <div className="wom-stat-box">
-                <h3>5</h3>
-                <p>Connected operating phases</p>
-              </div>
-              <div className="wom-stat-box">
-                <h3>1</h3>
-                <p>Integrated execution model</p>
-              </div>
-              <div className="wom-stat-box">
-                <h3>∞</h3>
-                <p>Continuous improvement mindset</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="wom-cta-wrapper">
         <div className="wom-container">
           <div className="wom-cta-box">
@@ -495,9 +459,9 @@ export default function OperatingModelPage() {
               </p>
               <h2>Build Systems That Scale with Structure</h2>
               <p>
-                Move beyond fragmented execution. Engineer systems through a
-                defined operating model built for clarity, scale, and long-term
-                performance.
+                Move beyond fragmented execution. Partner with Sri Yantra Tech
+                to engineer systems through a defined operating model built for
+                clarity, scale, and long-term performance.
               </p>
             </div>
 

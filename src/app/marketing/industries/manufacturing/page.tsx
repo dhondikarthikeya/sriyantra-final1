@@ -22,7 +22,6 @@ import {
 
 import {
   MdPrecisionManufacturing,
-  MdInsights,
   MdSecurity,
   MdTrendingUp,
   MdOutlineInventory2,
@@ -280,9 +279,9 @@ export default function ManufacturingIndustrialPage() {
             <h1>Manufacturing &amp; Industrial Operations</h1>
 
             <p className="hero-subheadline">
-              Helping manufacturing organizations modernize operations,
-              strengthen supply chains, and scale intelligent industrial
-              transformation.
+              Sri Yantra Tech helps manufacturing organizations modernize
+              operations, strengthen supply chains, and scale intelligent
+              industrial transformation.
             </p>
           </div>
         </div>
@@ -293,9 +292,7 @@ export default function ManufacturingIndustrialPage() {
           <div className="left-content">
             <p className="section-label">Industry Overview</p>
 
-            <h2>
-              Manufacturing &amp; Industrial Transformation
-            </h2>
+            <h2>Manufacturing &amp; Industrial Transformation</h2>
 
             <Image
               src="/hero/3.png"
@@ -316,20 +313,19 @@ export default function ManufacturingIndustrialPage() {
             </p>
 
             <p>
-              We help manufacturers modernize production systems, optimize
-              supply chains, and implement intelligent automation strategies.
+              Manufacturers need modern production systems, optimized supply
+              chains, and intelligent automation strategies to stay competitive.
             </p>
 
             <p>
-              Our teams combine industrial expertise, engineering capabilities,
-              and data-driven insights to improve operational performance and
-              scalability.
+              Sri Yantra Tech combines industrial expertise, engineering
+              capabilities, and data-driven insights to improve operational
+              performance and scalability.
             </p>
 
             <p>
-              We partner with global manufacturers and industrial enterprises to
-              build connected operations and future-ready manufacturing
-              ecosystems.
+              Global manufacturers and industrial enterprises can build
+              connected operations and future-ready manufacturing ecosystems.
             </p>
           </div>
         </div>
@@ -369,7 +365,7 @@ export default function ManufacturingIndustrialPage() {
                 ref={solutionsBoxRef}
                 className={`solutions-fixed-box solutions-${solutionsMode}`}
               >
-                <p className="section-label">Our Solutions</p>
+                <p className="section-label">Solutions</p>
 
                 <h2>
                   Consulting capabilities designed for manufacturing and
@@ -377,8 +373,8 @@ export default function ManufacturingIndustrialPage() {
                 </h2>
 
                 <p className="solutions-intro">
-                  We combine industrial expertise, engineering innovation, and
-                  digital transformation strategies to help organizations scale
+                  Industrial expertise, engineering innovation, and digital
+                  transformation strategies help organizations scale
                   efficiently.
                 </p>
               </div>
@@ -404,9 +400,7 @@ export default function ManufacturingIndustrialPage() {
           <div className="left-section">
             <p className="section-label">Business Outcomes</p>
 
-            <h2>
-              Tangible impact for modern manufacturing enterprises
-            </h2>
+            <h2>Tangible impact for modern manufacturing enterprises</h2>
 
             <div className="left-image">
               <Image
@@ -442,9 +436,8 @@ export default function ManufacturingIndustrialPage() {
               </h2>
 
               <p className="capabilities-description">
-                Our teams integrate manufacturing expertise, industrial
-                automation, and operational modernization to help enterprises
-                scale with confidence.
+                Manufacturing expertise, industrial automation, and operational
+                modernization help enterprises scale with confidence.
               </p>
             </div>
           </div>
@@ -506,12 +499,12 @@ export default function ManufacturingIndustrialPage() {
         </div>
       </section>
 
-      <section className="section case-study-section">
+      {/* <section className="section case-study-section">
         <div className="container two-column">
           <div>
             <p className="section-label section-label-light">Case Study</p>
 
-            <h2>How We Help Industrial Enterprises Scale</h2>
+            <h2>How Industrial Enterprises Scale</h2>
           </div>
 
           <div className="case-study-card">
@@ -520,9 +513,9 @@ export default function ManufacturingIndustrialPage() {
             </p>
 
             <p className="case-study-description">
-              A leading industrial enterprise partnered with Jetsky to modernize
-              factory operations, improve automation, and optimize supply chain
-              performance across global facilities.
+              A leading industrial enterprise modernized factory operations,
+              improved automation, and optimized supply chain performance
+              across global facilities.
             </p>
 
             <div className="stats-grid">
@@ -580,31 +573,27 @@ export default function ManufacturingIndustrialPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="cta-wrapper">
         <div className="container">
           <div className="cta-box">
             <div className="cta-content">
-              <p className="section-label section-label-light">
-                Let’s Talk
-              </p>
+              <p className="section-label section-label-light">Let’s Talk</p>
 
               <h2>
-                Partner with Jetsky to Accelerate Industrial Transformation
+                Partner with Sri Yantra Tech to Accelerate Industrial
+                Transformation
               </h2>
 
               <p>
-                Work with our experts to modernize manufacturing operations,
-                improve industrial resilience, and scale intelligent factory
-                ecosystems.
+                Work with experts to modernize manufacturing operations, improve
+                industrial resilience, and scale intelligent factory ecosystems.
               </p>
             </div>
 
             <div className="cta-action">
-              <button className="btn btn-white">
-                Start Discussion
-              </button>
+              <button className="btn btn-white">Start Discussion</button>
             </div>
           </div>
         </div>

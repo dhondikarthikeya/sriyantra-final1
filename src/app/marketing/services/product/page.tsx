@@ -32,7 +32,7 @@ import {
   SiPython,
   SiDotnet,
   SiGraphql,
-//   SiMicrosoftazure,
+  // SiMicrosoftazure,
   SiGooglecloud,
   SiKubernetes,
   SiTerraform,
@@ -40,8 +40,8 @@ import {
   SiMongodb,
   SiRedis,
   SiFirebase,
-//   SiPowerbi,
-//   SiTableau,
+  // SiPowerbi,
+  // SiTableau,
   SiApachekafka,
 } from "react-icons/si";
 import "./page.css";
@@ -74,8 +74,7 @@ export default function ProductEngineeringPage() {
     },
     {
       title: "SaaS Engineering",
-      description:
-        "Multi-tenant, cloud-native SaaS product development.",
+      description: "Multi-tenant, cloud-native SaaS product development.",
     },
     {
       title: "API & Microservices",
@@ -89,8 +88,7 @@ export default function ProductEngineeringPage() {
     },
     {
       title: "Performance Engineering",
-      description:
-        "Systems optimized for speed, scale, and reliability.",
+      description: "Systems optimized for speed, scale, and reliability.",
     },
   ];
 
@@ -99,7 +97,7 @@ export default function ProductEngineeringPage() {
       step: "01",
       title: "Architect with clarity",
       description:
-        "We shape product structure, define boundaries, and establish scalable technical foundations before development begins.",
+        "Sri Yantra Tech shapes product structure, defines boundaries, and establishes scalable technical foundations before development begins.",
     },
     {
       step: "02",
@@ -234,32 +232,16 @@ export default function ProductEngineeringPage() {
 
         <div className="product-shell product-hero-layout">
           <div className="product-hero-copy">
-            {/* <p className="product-eyebrow product-eyebrow-light">
-              Product &amp; Digital Engineering
-            </p> */}
-
             <h1 className="product-hero-title">
               Product &amp; Digital Engineering
             </h1>
 
             <p className="product-hero-text">
-              We design and build high-performance digital products, SaaS
-              platforms, enterprise applications, and cloud-native systems using
-              modern architectures and engineering excellence.
+              Sri Yantra Tech designs and builds high-performance digital
+              products, SaaS platforms, enterprise applications, and
+              cloud-native systems using modern architectures and engineering
+              excellence.
             </p>
-
-            {/* <div className="product-hero-actions">
-              <Link href="/contact" className="product-btn product-btn-primary">
-                Build Your Product
-              </Link>
-
-              <Link
-                href="/contact"
-                className="product-btn product-btn-secondary"
-              >
-                Talk to an Architect
-              </Link>
-            </div> */}
           </div>
 
           <div className="product-hero-panel">
@@ -310,56 +292,43 @@ export default function ProductEngineeringPage() {
         </div>
       </section>
 
-      
-
       <section className="product-section">
-  <div className="product-shell">
+        <div className="product-shell">
+          <div className="product-deliver-header">
+            <div className="product-section-head">
+              <p className="product-eyebrow">What We Engineer</p>
 
-    {/* HEADER WITH IMAGE */}
-    <div className="product-deliver-header">
+              <h2 className="product-section-title">
+                End-to-End Product Engineering
+              </h2>
 
-      {/* LEFT CONTENT */}
-      <div className="product-section-head">
-        <p className="product-eyebrow">What We Engineer</p>
+              <p className="product-section-text">
+                Sri Yantra Tech engineers digital products across architecture,
+                product development, app development, platform design,
+                integration, DevOps, and performance optimization with a focus
+                on long-term enterprise value.
+              </p>
+            </div>
 
-        <h2 className="product-section-title">
-          End-to-End Product Engineering
-        </h2>
+            <div className="product-deliver-image">
+              <img src="/hero/15.png" alt="Product Engineering" />
+            </div>
+          </div>
 
-        <p className="product-section-text">
-          We engineer digital products across architecture, product
-          development, app development, platform design, integration,
-          DevOps, and performance optimization with a focus on long-term
-          enterprise value.
-        </p>
-      </div>
-
-      {/* RIGHT IMAGE */}
-      <div className="product-deliver-image">
-        <img
-          src="/hero/15.png"
-          alt="Product Engineering"
-        />
-      </div>
-
-    </div>
-
-    {/* CARDS */}
-    <div className="product-card-grid product-card-grid-4">
-      {engineeringCards.map((item) => (
-        <article
-          key={item.title}
-          className="product-card product-card-hover"
-        >
-          <div className="product-card-bar" />
-          <h3 className="product-card-title">{item.title}</h3>
-          <p className="product-card-text">{item.description}</p>
-        </article>
-      ))}
-    </div>
-
-  </div>
-</section>
+          <div className="product-card-grid product-card-grid-4">
+            {engineeringCards.map((item) => (
+              <article
+                key={item.title}
+                className="product-card product-card-hover"
+              >
+                <div className="product-card-bar" />
+                <h3 className="product-card-title">{item.title}</h3>
+                <p className="product-card-text">{item.description}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <section className="product-section product-section-muted">
         <div className="product-shell">
@@ -372,8 +341,9 @@ export default function ProductEngineeringPage() {
               </h2>
 
               <p className="product-section-text">
-                We don&apos;t just build applications. We engineer systems
-                designed for scale, performance, and long-term evolution.
+                At Sri Yantra Tech, we don&apos;t just build applications. We
+                engineer systems designed for scale, performance, and long-term
+                evolution.
               </p>
             </div>
           </div>
@@ -384,7 +354,6 @@ export default function ProductEngineeringPage() {
                 <article key={item.step} className="product-approach-card">
                   <div className="product-approach-card-top">
                     <span className="product-approach-step">{item.step}</span>
-                    {/* <span className="product-approach-badge">Methodology</span> */}
                   </div>
 
                   <h3 className="product-approach-title">{item.title}</h3>
@@ -527,9 +496,9 @@ export default function ProductEngineeringPage() {
             <h2 className="product-section-title">What We Enable</h2>
 
             <p className="product-section-text">
-              We help organizations launch stronger products, modernize digital
-              platforms, improve application performance, and strengthen cloud
-              and platform readiness.
+              Sri Yantra Tech helps organizations launch stronger products,
+              modernize digital platforms, improve application performance, and
+              strengthen cloud and platform readiness.
             </p>
           </div>
 
@@ -543,14 +512,15 @@ export default function ProductEngineeringPage() {
           </div>
         </div>
       </section>
-<section className="product-marquee-section">
+
+      <section className="product-marquee-section">
         <div className="product-shell">
           <div className="product-marquee-head">
             <p className="product-eyebrow">
               Technologies, Platforms &amp; Engineering Tools
             </p>
             <h2 className="product-section-title product-section-title-sm product-section-title-light">
-              Engineering Stack, Platforms & Tools
+              Engineering Stack, Platforms &amp; Tools
             </h2>
           </div>
         </div>
@@ -594,7 +564,7 @@ export default function ProductEngineeringPage() {
             </div>
 
             <div className="product-cta-action">
-              <Link href="/contact" className="product-btn product-btn-white">
+              <Link href="/marketing/contact" className="product-btn product-btn-white">
                 Start Your Product Journey
               </Link>
             </div>

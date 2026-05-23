@@ -47,7 +47,7 @@
   margin-top: 1.1rem;
   max-width: 50rem;
   font-size: 1rem;
-  line-height: 1.9;
+  line-height: 1.5;
   color: #475569;
 }
 
@@ -74,7 +74,7 @@
   min-height: 100vh;
   overflow: hidden;
   border-bottom: 1px solid rgba(148, 163, 184, 0.16);
-  background-image: url("/hero/bg13.png");
+  background-image: url("/hero/32.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -109,7 +109,7 @@
   grid-template-columns: 1.15fr 0.85fr;
   gap: 72px;
   align-items: flex-start;
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 64px;
 }
 
@@ -839,7 +839,8 @@
   gap: 2rem;
   align-items: center;
   padding: 3rem 1.6rem;
-  background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 35%, #4f46e5 70%, #6d28d9 100%);
+  background: linear-gradient(243deg, #1ea8f2 0%, #2f7fe9 40%, #3d56df 70%, #5b16d6 100%);
+
   box-shadow: 0 28px 70px rgba(30, 58, 138, 0.24);
 }
 
@@ -869,7 +870,7 @@
   margin-top: 1rem;
   max-width: 42rem;
   font-size: 1rem;
-  line-height: 1.9;
+  line-height: 1.5;
   color: #e2e8f0;
 }
 

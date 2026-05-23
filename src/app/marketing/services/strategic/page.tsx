@@ -29,22 +29,22 @@ export default function StrategicPage() {
     {
       title: "Technology Strategy & Roadmapping",
       description:
-        "Define a pragmatic technology direction that aligns business ambition, operating priorities, and execution realities across the enterprise.",
+        "Sri Yantra Tech defines a pragmatic technology direction that aligns business ambition, operating priorities, and execution realities across the enterprise.",
     },
     {
       title: "Enterprise Architecture Advisory",
       description:
-        "Establish resilient architectural foundations that improve interoperability, governance, scalability, and long-term decision quality.",
+        "Sri Yantra Tech establishes resilient architectural foundations that improve interoperability, governance, scalability, and long-term decision quality.",
     },
     {
       title: "Digital Transformation Planning",
       description:
-        "Shape transformation programs with clear sequencing, measurable milestones, and operating-model alignment to reduce friction in delivery.",
+        "Sri Yantra Tech shapes transformation programs with clear sequencing, measurable milestones, and operating-model alignment to reduce friction in delivery.",
     },
     {
       title: "Innovation & Investment Prioritization",
       description:
-        "Evaluate opportunities through a business-value lens to focus investment on initiatives that strengthen competitiveness and unlock growth.",
+        "Sri Yantra Tech evaluates opportunities through a business-value lens to focus investment on initiatives that strengthen competitiveness and unlock growth.",
     },
   ];
 
@@ -53,19 +53,19 @@ export default function StrategicPage() {
       step: "01",
       title: "Assess",
       description:
-        "We evaluate current-state architecture, delivery maturity, investment posture, and organizational constraints to establish a clear strategic baseline.",
+        "Sri Yantra Tech evaluates current-state architecture, delivery maturity, investment posture, and organizational constraints to establish a clear strategic baseline.",
     },
     {
       step: "02",
       title: "Align",
       description:
-        "We align stakeholders around business priorities, target-state capabilities, and a practical roadmap that supports enterprise-wide execution.",
+        "Sri Yantra Tech aligns stakeholders around business priorities, target-state capabilities, and a practical roadmap that supports enterprise-wide execution.",
     },
     {
       step: "03",
       title: "Execute",
       description:
-        "We translate strategy into action through governance structures, transformation sequencing, and decision frameworks that sustain momentum.",
+        "Sri Yantra Tech translates strategy into action through governance structures, transformation sequencing, and decision frameworks that sustain momentum.",
     },
   ];
 
@@ -80,19 +80,19 @@ export default function StrategicPage() {
     {
       title: "Architecture Modernization",
       description:
-        "Rationalize platforms, improve resiliency, and enable scalable delivery foundations.",
+        "Sri Yantra Tech rationalizes platforms, improves resiliency, and enables scalable delivery foundations.",
       number: "01",
     },
     {
       title: "Investment Governance",
       description:
-        "Prioritize initiatives against business value, execution readiness, and risk exposure.",
+        "Sri Yantra Tech prioritizes initiatives against business value, execution readiness, and risk exposure.",
       number: "02",
     },
     {
       title: "Transformation Roadmap",
       description:
-        "Sequence change in a way that balances strategic ambition with operational continuity.",
+        "Sri Yantra Tech sequences change in a way that balances strategic ambition with operational continuity.",
       number: "03",
     },
   ];
@@ -122,9 +122,10 @@ export default function StrategicPage() {
             <p className="strategic-hero-text">
               Sri Yantra Tech helps enterprises define technology strategy,
               modernize architecture, and align digital investments with
-              measurable business outcomes. We bring structured advisory
-              thinking to complex transformation decisions, enabling leadership
-              teams to move with greater clarity, control, and confidence.
+              measurable business outcomes. Sri Yantra Tech brings structured
+              advisory thinking to complex transformation decisions, enabling
+              leadership teams to move with greater clarity, control, and
+              confidence.
             </p>
           </div>
 
@@ -175,8 +176,8 @@ export default function StrategicPage() {
                 </p>
 
                 <p className="strategic-stat-text strategic-stat-text-light">
-                  Advisory view across technology, operations, risk, and
-                  business priorities.
+                  Sri Yantra Tech provides an advisory view across technology,
+                  operations, risk, and business priorities.
                 </p>
               </div>
 
@@ -186,7 +187,8 @@ export default function StrategicPage() {
                 </p>
 
                 <p className="strategic-stat-text strategic-stat-text-light">
-                  Executive-ready communication and structured decision support.
+                  Sri Yantra Tech delivers executive-ready communication and
+                  structured decision support.
                 </p>
               </div>
             </div>
@@ -205,9 +207,9 @@ export default function StrategicPage() {
               </h2>
 
               <p className="strategic-section-text">
-                We help leadership teams make sharper technology decisions
-                across architecture, transformation, and investment planning—
-                grounded in business priorities and built for long-term
+                Sri Yantra Tech helps leadership teams make sharper technology
+                decisions across architecture, transformation, and investment
+                planning—grounded in business priorities and built for long-term
                 resilience.
               </p>
             </div>
@@ -296,9 +298,9 @@ export default function StrategicPage() {
             </h2>
 
             <p className="strategic-section-text">
-              Our advisory work is designed to improve how enterprises make
-              decisions, govern investments, and build the operational
-              foundations required for sustainable transformation.
+              Sri Yantra Tech advisory work is designed to improve how
+              enterprises make decisions, govern investments, and build the
+              operational foundations required for sustainable transformation.
             </p>
           </div>
 
@@ -334,7 +336,7 @@ export default function StrategicPage() {
             </div>
 
             <div className="strategic-cta-action">
-              <Link href="/contact" className="strategic-btn strategic-btn-white">
+              <Link href="/marketing/contact" className="strategic-btn strategic-btn-white">
                 Talk to Our Team
               </Link>
             </div>

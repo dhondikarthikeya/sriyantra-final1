@@ -30,13 +30,12 @@ export default function StartDiscussionPage() {
 
         <div className="sd-container">
           <div className="sd-hero-content">
-            <h1 className="sd-title">
-              Build Intelligent Digital Systems
-            </h1>
+            <h1 className="sd-title">Build Intelligent Digital Systems</h1>
 
             <p className="sd-subtitle">
-              Architecture-first consulting across AI systems, cloud platforms,
-              product engineering, and enterprise transformation.
+              Sri Yantra Tech delivers architecture-first consulting across AI
+              systems, cloud platforms, product engineering, and enterprise
+              transformation.
             </p>
 
             {/* HERO BUTTON */}
@@ -77,9 +76,7 @@ export default function StartDiscussionPage() {
                   Product & Digital Engineering
                 </div>
 
-                <div className="sd-capability-item">
-                  AI & Agentic Systems
-                </div>
+                <div className="sd-capability-item">AI & Agentic Systems</div>
 
                 <div className="sd-capability-item">
                   Data & Analytics Engineering
@@ -157,9 +154,7 @@ export default function StartDiscussionPage() {
             {/* FORM */}
             <div className="sd-form-card">
               <div className="sd-form-head">
-                <span className="sd-section-label">
-                  Start a Conversation
-                </span>
+                <span className="sd-section-label">Start a Conversation</span>
 
                 <h2 className="sd-form-title">
                   Discuss your next technology initiative
@@ -167,7 +162,7 @@ export default function StartDiscussionPage() {
 
                 <p className="sd-form-copy">
                   Share your business objectives, architecture priorities, or
-                  transformation goals.
+                  transformation goals with Sri Yantra Tech.
                 </p>
               </div>
 

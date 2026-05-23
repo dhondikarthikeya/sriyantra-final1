@@ -55,56 +55,56 @@ export default function AIAndAgenticSystemsPage() {
     {
       title: "AI Agent Development",
       description:
-        "Design and build autonomous and semi-autonomous agents that execute multi-step business workflows with context, tools, and decision logic.",
+        "Sri Yantra Tech designs and builds autonomous and semi-autonomous agents that execute multi-step business workflows with context, tools, and decision logic.",
       icon: <FaRobot />,
       iconClass: "ai-capability-icon-agent",
     },
     {
       title: "Conversational AI Systems",
       description:
-        "Create enterprise assistants for customer support, operations enablement, internal knowledge access, and workflow interactions.",
+        "Sri Yantra Tech creates enterprise assistants for customer support, operations enablement, internal knowledge access, and workflow interactions.",
       icon: <FaComments />,
       iconClass: "ai-capability-icon-conversation",
     },
     {
       title: "LLM Integration & Orchestration",
       description:
-        "Connect large language models with enterprise data, APIs, business rules, and orchestration layers for reliable execution.",
+        "Sri Yantra Tech connects large language models with enterprise data, APIs, business rules, and orchestration layers for reliable execution.",
       icon: <FaProjectDiagram />,
       iconClass: "ai-capability-icon-llm",
     },
     {
       title: "Workflow Automation",
       description:
-        "Replace fragmented manual processes with AI-assisted execution pipelines, approval routing, and intelligent operational workflows.",
+        "Sri Yantra Tech replaces fragmented manual processes with AI-assisted execution pipelines, approval routing, and intelligent operational workflows.",
       icon: <FaCogs />,
       iconClass: "ai-capability-icon-workflow",
     },
     {
       title: "Predictive Intelligence",
       description:
-        "Apply machine learning and intelligent reasoning systems for forecasting, anomaly detection, optimization, and decision acceleration.",
+        "Sri Yantra Tech applies machine learning and intelligent reasoning systems for forecasting, anomaly detection, optimization, and decision acceleration.",
       icon: <FaChartLine />,
       iconClass: "ai-capability-icon-predictive",
     },
     {
       title: "Decision Support Systems",
       description:
-        "Deliver context-aware AI interfaces that help teams interpret information, evaluate options, and act with better operational clarity.",
+        "Sri Yantra Tech delivers context-aware AI interfaces that help teams interpret information, evaluate options, and act with better operational clarity.",
       icon: <FaBrain />,
       iconClass: "ai-capability-icon-decision",
     },
     {
       title: "RAG & Knowledge Systems",
       description:
-        "Build retrieval-enhanced AI systems grounded in enterprise content, governed data access, and trusted knowledge layers.",
+        "Sri Yantra Tech builds retrieval-enhanced AI systems grounded in enterprise content, governed data access, and trusted knowledge layers.",
       icon: <FaDatabase />,
       iconClass: "ai-capability-icon-rag",
     },
     {
       title: "AI Governance & Deployment",
       description:
-        "Engineer secure, observable, and production-ready AI systems with human oversight, governance controls, and operational guardrails.",
+        "Sri Yantra Tech engineers secure, observable, and production-ready AI systems with human oversight, governance controls, and operational guardrails.",
       icon: <FaShieldAlt />,
       iconClass: "ai-capability-icon-governance",
     },
@@ -123,31 +123,31 @@ export default function AIAndAgenticSystemsPage() {
     {
       title: "Architecture-First AI",
       description:
-        "We design AI inside enterprise systems, workflows, and operating environments — not as isolated experiments.",
+        "Sri Yantra Tech designs AI inside enterprise systems, workflows, and operating environments, not as isolated experiments.",
       icon: <FaNetworkWired />,
     },
     {
       title: "Agentic Workflow Design",
       description:
-        "We engineer multi-step reasoning, execution logic, approval paths, and tool usage across business functions.",
+        "Sri Yantra Tech engineers multi-step reasoning, execution logic, approval paths, and tool usage across business functions.",
       icon: <FaProjectDiagram />,
     },
     {
       title: "Human + AI Collaboration",
       description:
-        "We create systems with oversight, intervention points, explainability, and accountability where business risk requires it.",
+        "Sri Yantra Tech creates systems with oversight, intervention points, explainability, and accountability where business risk requires it.",
       icon: <FaUsers />,
     },
     {
       title: "Enterprise Integration",
       description:
-        "We connect AI with CRMs, ERPs, APIs, cloud platforms, internal tools, and data systems to drive usable outcomes.",
+        "Sri Yantra Tech connects AI with CRMs, ERPs, APIs, cloud platforms, internal tools, and data systems to drive usable outcomes.",
       icon: <FaCloud />,
     },
     {
       title: "Scalable Deployment",
       description:
-        "We build for reliability, observability, governance, security, and long-term production performance.",
+        "Sri Yantra Tech builds for reliability, observability, governance, security, and long-term production performance.",
       icon: <FaSlidersH />,
     },
   ];
@@ -157,35 +157,35 @@ export default function AIAndAgenticSystemsPage() {
       step: "01",
       title: "Discovery",
       description:
-        "Identify high-value workflows, operational friction, data readiness, and the right AI opportunities.",
+        "Sri Yantra Tech identifies high-value workflows, operational friction, data readiness, and the right AI opportunities.",
       icon: <FaSearch />,
     },
     {
       step: "02",
       title: "Blueprint",
       description:
-        "Define architecture, agent roles, model strategy, integrations, governance, and measurable success criteria.",
+        "Sri Yantra Tech defines architecture, agent roles, model strategy, integrations, governance, and measurable success criteria.",
       icon: <FaProjectDiagram />,
     },
     {
       step: "03",
       title: "Build",
       description:
-        "Develop agents, orchestration logic, interfaces, knowledge layers, automation workflows, and supporting services.",
+        "Sri Yantra Tech develops agents, orchestration logic, interfaces, knowledge layers, automation workflows, and supporting services.",
       icon: <FaCogs />,
     },
     {
       step: "04",
       title: "Deploy",
       description:
-        "Integrate into enterprise environments with security, controls, observability, testing, and rollout discipline.",
+        "Sri Yantra Tech integrates AI into enterprise environments with security, controls, observability, testing, and rollout discipline.",
       icon: <FaCloud />,
     },
     {
       step: "05",
       title: "Optimize",
       description:
-        "Continuously improve outputs, workflow quality, adoption, accuracy, and operational value through feedback loops.",
+        "Sri Yantra Tech continuously improves outputs, workflow quality, adoption, accuracy, and operational value through feedback loops.",
       icon: <FaChartLine />,
     },
   ];
@@ -194,49 +194,49 @@ export default function AIAndAgenticSystemsPage() {
     {
       title: "Customer Support Automation",
       description:
-        "AI agents and conversational systems that resolve requests, guide service workflows, and reduce support friction.",
+        "Sri Yantra Tech builds AI agents and conversational systems that resolve requests, guide service workflows, and reduce support friction.",
       icon: <FaHeadset />,
     },
     {
       title: "Internal Knowledge Assistants",
       description:
-        "Retrieval-based assistants that help employees access policies, technical knowledge, documentation, and SOPs.",
+        "Sri Yantra Tech creates retrieval-based assistants that help employees access policies, technical knowledge, documentation, and SOPs.",
       icon: <FaBookOpen />,
     },
     {
       title: "Sales & Proposal Workflows",
       description:
-        "Automate research, response drafting, qualification workflows, and proposal support across revenue teams.",
+        "Sri Yantra Tech automates research, response drafting, qualification workflows, and proposal support across revenue teams.",
       icon: <FaFileSignature />,
     },
     {
       title: "IT & Operations Copilots",
       description:
-        "Intelligent assistants that support diagnostics, task resolution, service workflows, and operational execution.",
+        "Sri Yantra Tech develops intelligent assistants that support diagnostics, task resolution, service workflows, and operational execution.",
       icon: <FaServer />,
     },
     {
       title: "Finance Process Support",
       description:
-        "Improve document handling, approvals, exception management, reporting support, and process consistency.",
+        "Sri Yantra Tech improves document handling, approvals, exception management, reporting support, and process consistency.",
       icon: <FaCalculator />,
     },
     {
       title: "Analytics & Decision Intelligence",
       description:
-        "Enable teams with AI-guided interpretation, forecasting support, and faster access to relevant business insights.",
+        "Sri Yantra Tech enables teams with AI-guided interpretation, forecasting support, and faster access to relevant business insights.",
       icon: <FaChartBar />,
     },
     {
       title: "Document Processing & Routing",
       description:
-        "Classify, extract, validate, and route business documents across systems and teams with workflow intelligence.",
+        "Sri Yantra Tech classifies, extracts, validates, and routes business documents across systems and teams with workflow intelligence.",
       icon: <FaFileAlt />,
     },
     {
       title: "Executive Reporting Automation",
       description:
-        "Combine enterprise data, summarization, and insight generation to accelerate leadership reporting and visibility.",
+        "Sri Yantra Tech combines enterprise data, summarization, and insight generation to accelerate leadership reporting and visibility.",
       icon: <FaRegChartBar />,
     },
   ];
@@ -245,25 +245,25 @@ export default function AIAndAgenticSystemsPage() {
     {
       title: "Human-in-the-loop controls",
       description:
-        "Approval checkpoints, escalation paths, and review layers where confidence, compliance, or judgment matter.",
+        "Sri Yantra Tech implements approval checkpoints, escalation paths, and review layers where confidence, compliance, or judgment matter.",
       icon: <FaUsers />,
     },
     {
       title: "Auditability & observability",
       description:
-        "Track prompts, tools, outputs, decisions, system behavior, and workflow performance with operational visibility.",
+        "Sri Yantra Tech tracks prompts, tools, outputs, decisions, system behavior, and workflow performance with operational visibility.",
       icon: <FaClipboardCheck />,
     },
     {
       title: "Security-aware architecture",
       description:
-        "Role-based access, controlled data exposure, and enterprise deployment models aligned to security expectations.",
+        "Sri Yantra Tech designs role-based access, controlled data exposure, and enterprise deployment models aligned to security expectations.",
       icon: <FaLock />,
     },
     {
       title: "Guardrails & governance",
       description:
-        "Model usage boundaries, workflow rules, validation layers, and operational controls for responsible adoption.",
+        "Sri Yantra Tech defines model usage boundaries, workflow rules, validation layers, and operational controls for responsible adoption.",
       icon: <FaShieldAlt />,
     },
   ];
@@ -359,17 +359,17 @@ export default function AIAndAgenticSystemsPage() {
     {
       title: "Intelligent Agents",
       description:
-        "Multi-step systems that reason, act, and coordinate across tools and workflows.",
+        "Sri Yantra Tech builds multi-step systems that reason, act, and coordinate across tools and workflows.",
     },
     {
       title: "Workflow Orchestration",
       description:
-        "AI integrated into business processes, not isolated behind standalone interfaces.",
+        "Sri Yantra Tech integrates AI into business processes, not isolated behind standalone interfaces.",
     },
     {
       title: "Production-Ready AI",
       description:
-        "Governed, observable, secure systems designed for enterprise deployment and scale.",
+        "Sri Yantra Tech delivers governed, observable, secure systems designed for enterprise deployment and scale.",
     },
   ];
 
@@ -384,10 +384,10 @@ export default function AIAndAgenticSystemsPage() {
             <h1 className="ai-hero-title">AI &amp; Agentic Systems</h1>
 
             <p className="ai-hero-text">
-              We design AI-powered systems, intelligent agents, workflow
-              automation layers, and LLM-integrated enterprise solutions that
-              transform fragmented operations into coordinated, intelligent
-              execution.
+              Sri Yantra Tech designs AI-powered systems, intelligent agents,
+              workflow automation layers, and LLM-integrated enterprise
+              solutions that transform fragmented operations into coordinated,
+              intelligent execution.
             </p>
           </div>
 
@@ -482,12 +482,13 @@ export default function AIAndAgenticSystemsPage() {
           <div className="ai-section-head ai-section-head-wide">
             <p className="ai-eyebrow">What We Deliver</p>
             <h2 className="ai-section-title">
-              AI & Agentic Capabilities Built for Enterprise Execution
+              AI &amp; Agentic Capabilities Built for Enterprise Execution
             </h2>
             <p className="ai-section-text">
-              We build practical AI systems that combine intelligent agents,
-              model orchestration, enterprise integrations, automation design,
-              and governance controls to support scalable business execution.
+              Sri Yantra Tech builds practical AI systems that combine
+              intelligent agents, model orchestration, enterprise integrations,
+              automation design, and governance controls to support scalable
+              business execution.
             </p>
           </div>
 
@@ -513,9 +514,9 @@ export default function AIAndAgenticSystemsPage() {
               From AI Features to Intelligent Operating Systems
             </h2>
             <p className="ai-section-text">
-              We help organizations move from disconnected AI features toward
-              orchestrated intelligence systems that support real execution,
-              oversight, and integration across the enterprise.
+              Sri Yantra Tech helps organizations move from disconnected AI
+              features toward orchestrated intelligence systems that support
+              real execution, oversight, and integration across the enterprise.
             </p>
           </div>
 
@@ -539,9 +540,9 @@ export default function AIAndAgenticSystemsPage() {
               Structured Delivery for AI That Reaches Production
             </h2>
             <p className="ai-section-text">
-              Our delivery model is designed to turn promising ideas into
-              production-ready AI systems with strong architecture, measurable
-              outcomes, and operational reliability.
+              Sri Yantra Tech&apos;s delivery model is designed to turn
+              promising ideas into production-ready AI systems with strong
+              architecture, measurable outcomes, and operational reliability.
             </p>
           </div>
 
@@ -613,13 +614,13 @@ export default function AIAndAgenticSystemsPage() {
       <section className="ai-section">
         <div className="ai-shell">
           <div className="ai-section-head ai-section-head-wide">
-            <p className="ai-eyebrow">Trust & Governance</p>
+            <p className="ai-eyebrow">Trust &amp; Governance</p>
             <h2 className="ai-section-title">
               Designed for Responsible Enterprise Adoption
             </h2>
             <p className="ai-section-text">
-              Responsible AI adoption requires more than model access. It
-              requires system design that supports visibility, control,
+              Responsible AI adoption requires more than model access. Sri
+              Yantra Tech designs systems that support visibility, control,
               security, governance, and operational trust at every stage.
             </p>
           </div>
@@ -646,9 +647,10 @@ export default function AIAndAgenticSystemsPage() {
               Built to Integrate Across Your Existing Ecosystem
             </h2>
             <p className="ai-section-text">
-              We engineer AI systems that connect across cloud platforms, model
-              layers, data environments, knowledge systems, APIs, and enterprise
-              tooling without creating operational fragmentation.
+              Sri Yantra Tech engineers AI systems that connect across cloud
+              platforms, model layers, data environments, knowledge systems,
+              APIs, and enterprise tooling without creating operational
+              fragmentation.
             </p>
           </div>
 
@@ -681,19 +683,15 @@ export default function AIAndAgenticSystemsPage() {
                 Build AI Systems That Work Beyond the Demo
               </h2>
               <p className="ai-cta-text">
-                From intelligent agents and conversational platforms to workflow
-                automation and predictive systems, we engineer AI solutions that
-                fit real enterprise environments.
+                Partner with Sri Yantra Tech to engineer intelligent agents,
+                conversational platforms, workflow automation, and predictive
+                systems that fit real enterprise environments.
               </p>
             </div>
 
             <div className="ai-cta-actions">
-              <Link href="/contact" className="ai-btn ai-btn-white">
+              <Link href="/marketing/contact" className="ai-btn ai-btn-white">
                 Start the Conversation
-              </Link>
-
-              <Link href="/capabilities" className="ai-btn ai-btn-outline-light">
-                Explore All Capabilities
               </Link>
             </div>
           </div>

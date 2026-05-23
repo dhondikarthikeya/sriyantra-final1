@@ -60,7 +60,7 @@ img {
   margin-top: 1.1rem;
   max-width: 50rem;
   font-size: 1rem;
-  line-height: 1.9;
+  line-height: 1.5;
   color: #475569;
 }
 
@@ -150,7 +150,7 @@ img {
   grid-template-columns: 1.15fr 0.85fr;
   gap: 72px;
   align-items: flex-start;
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 64px;
 }
 
@@ -173,7 +173,7 @@ img {
   margin-top: 1.5rem;
   max-width: 46rem;
   font-size: 1.05rem;
-  line-height: 1.8rem;
+  line-height: 1.5rem;
   color: #dbe4ee;
 }
 
@@ -262,7 +262,7 @@ img {
   justify-content: center;
   min-height: 52px;
   padding: 0.9rem 1.45rem;
-  border-radius: 0.8rem;
+  border-radius: 0.1rem;
   text-decoration: none;
   font-size: 0.92rem;
   font-weight: 600;
@@ -445,7 +445,7 @@ img {
 .ai-challenge-summary-card p {
   margin: 0.85rem 0 0;
   color: #dbeafe;
-  line-height: 1.8;
+  line-height: 1.5;
   font-size: 0.95rem;
 }
 
@@ -726,7 +726,7 @@ img {
 .ai-usecase-text {
   margin-top: 0.8rem;
   font-size: 0.94rem;
-  line-height: 1.8;
+  line-height: 1.5;
   color: #cbd5e1;
 }
 
@@ -856,7 +856,16 @@ img {
 
 .ecosystem-icon-openai svg,
 .ecosystem-icon-gcloud svg,
-.ecosystem-icon-docker svg {
+.ecosystem-icon-docker svg,
+.ecosystem-icon-typescript svg,
+.ecosystem-icon-nextjs svg,
+.ecosystem-icon-python svg,
+.ecosystem-icon-kubernetes svg,
+.ecosystem-icon-kafka svg,
+.ecosystem-icon-redis svg,
+.ecosystem-icon-mongodb svg,
+.ecosystem-icon-postgresql svg {
+  
   width: 28px;
   height: 28px;
 }
@@ -900,8 +909,8 @@ img {
 
 .ecosystem-icon-kubernetes {
   color: #326ce5;
-  background: rgba(50, 108, 229, 0.12);
-  border-color: rgba(50, 108, 229, 0.2);
+  /* background: rgba(50, 108, 229, 0.12);
+  border-color: rgba(50, 108, 229, 0.2); */
 }
 
 .ecosystem-python {
@@ -911,8 +920,8 @@ img {
 
 .ecosystem-icon-python {
   color: #3776ab;
-  background: rgba(55, 118, 171, 0.12);
-  border-color: rgba(55, 118, 171, 0.2);
+  /* background: rgba(55, 118, 171, 0.12);
+  border-color: rgba(55, 118, 171, 0.2); */
 }
 
 .ecosystem-nextjs {
@@ -922,8 +931,8 @@ img {
 
 .ecosystem-icon-nextjs {
   color: #111111;
-  background: rgba(15, 23, 42, 0.08);
-  border-color: rgba(15, 23, 42, 0.14);
+  /* background: rgba(15, 23, 42, 0.08);
+  border-color: rgba(15, 23, 42, 0.14); */
 }
 
 .ecosystem-typescript {
@@ -933,8 +942,8 @@ img {
 
 .ecosystem-icon-typescript {
   color: #3178c6;
-  background: rgba(49, 120, 198, 0.12);
-  border-color: rgba(49, 120, 198, 0.2);
+  /* background: rgba(49, 120, 198, 0.12);
+  border-color: rgba(49, 120, 198, 0.2); */
 }
 
 .ecosystem-postgresql {
@@ -944,8 +953,8 @@ img {
 
 .ecosystem-icon-postgresql {
   color: #336791;
-  background: rgba(51, 103, 145, 0.12);
-  border-color: rgba(51, 103, 145, 0.2);
+  /* background: rgba(51, 103, 145, 0.12);
+  border-color: rgba(51, 103, 145, 0.2); */
 }
 
 .ecosystem-mongodb {
@@ -955,8 +964,8 @@ img {
 
 .ecosystem-icon-mongodb {
   color: #47a248;
-  background: rgba(71, 162, 72, 0.12);
-  border-color: rgba(71, 162, 72, 0.2);
+  /* background: rgba(71, 162, 72, 0.12);
+  border-color: rgba(71, 162, 72, 0.2); */
 }
 
 .ecosystem-redis {
@@ -966,8 +975,8 @@ img {
 
 .ecosystem-icon-redis {
   color: #dc382d;
-  background: rgba(220, 56, 45, 0.12);
-  border-color: rgba(220, 56, 45, 0.2);
+  /* background: rgba(220, 56, 45, 0.12);
+  border-color: rgba(220, 56, 45, 0.2); */
 }
 
 .ecosystem-kafka {
@@ -977,15 +986,15 @@ img {
 
 .ecosystem-icon-kafka {
   color: #111827;
-  background: rgba(31, 41, 55, 0.08);
-  border-color: rgba(31, 41, 55, 0.14);
+  /* background: rgba(31, 41, 55, 0.08);
+  border-color: rgba(31, 41, 55, 0.14); */
 }
 
 /* CTA */
 
 .ai-cta-wrap {
-  padding-top: 1rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .ai-cta {
@@ -996,7 +1005,8 @@ img {
   overflow: hidden;
   padding: 1.25rem 1.25rem;
   /* border-radius: 28px; */
-  background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 35%, #4f46e5 70%, #6d28d9 100%);
+  background: linear-gradient(243deg, #1ea8f2 0%, #2f7fe9 40%, #3d56df 70%, #5b16d6 100%);
+
   box-shadow: 0 28px 70px rgba(30, 58, 138, 0.24);
 }
 
@@ -1032,7 +1042,7 @@ img {
   margin-top: 1rem;
   max-width: 42rem;
   font-size: 1rem;
-  line-height: 1.9;
+  line-height: 1.5;
   color: #e2e8f0;
 }
 
@@ -1154,7 +1164,7 @@ img {
   .ai-section-text,
   .ai-cta-text {
     font-size: 0.8rem;
-    line-height: 1.45rem;
+    line-height: 1.35rem;
   }
 
   .ai-section-title,

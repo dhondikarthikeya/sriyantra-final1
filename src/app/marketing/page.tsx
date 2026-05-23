@@ -89,22 +89,22 @@ const slides: Slide[] = [
     title: "Building AI & Agentic Systems for Modern Enterprises",
     description:
       "Sri Yantra Tech designs intelligent platforms, automation ecosystems, and enterprise AI solutions that accelerate innovation and operational efficiency.",
-    desktopImage: "/hero/bg14.png",
-    mobileImage: "/hero/14.png",
+    desktopImage: "/hero/43.png",
+    mobileImage: "/hero/24.png",
   },
   {
     title: "Accelerating Manufacturing & Mobility Transformation",
     description:
       "Sri Yantra Tech empowers industries with connected systems, industrial automation, mobility engineering, and advanced analytics solutions.",
-    desktopImage: "/hero/bg13.png",
-    mobileImage: "/hero/24.png",
+    desktopImage: "/hero/40.png",
+    mobileImage: "/hero/40.png",
   },
   {
     title: "Modern Technology Consulting for Scalable Growth",
     description:
       "Sri Yantra Tech supports organizations with product engineering, data modernization, enterprise platforms, and strategic technology consulting.",
-    desktopImage: "/hero/bg13.png",
-    mobileImage: "/hero/bg13.png",
+    desktopImage: "/hero/44.png",
+    mobileImage: "/hero/14.png",
   },
 ];
 
@@ -401,8 +401,19 @@ export default function HomePage() {
             <p>{slides[currentSlide].description}</p>
 
             <div className="hp7-a7">
-              <button className="hp7-btn1">Explore Capabilities</button>
-              <button className="hp7-btn2">Explore Industries</button>
+              <button
+  className="hp7-btn1"
+  onClick={() => window.location.href = "/marketing/services/strategic"}
+>
+  Explore Capabilities
+</button>
+
+<button
+  className="hp7-btn2"
+  onClick={() => window.location.href = "/marketing/industries/technology-saas"}
+>
+  Explore Industries
+</button>
             </div>
           </div>
         </div>
